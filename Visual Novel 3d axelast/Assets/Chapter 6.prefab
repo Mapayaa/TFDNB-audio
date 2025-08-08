@@ -1,0 +1,4208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &71476574288454011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7002618937975858676}
+  - component: {fileID: 8653554415579749860}
+  m_Layer: 0
+  m_Name: H6.C0.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7002618937975858676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71476574288454011}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8653554415579749860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71476574288454011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: It feels uneasy..
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &328401049727889711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5859264234412159730}
+  - component: {fileID: 8650898627423715408}
+  m_Layer: 0
+  m_Name: H6.C0.5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5859264234412159730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328401049727889711}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8650898627423715408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328401049727889711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: It felt really great.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &332666531643912324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6333929222842887042}
+  - component: {fileID: 4179359963186928042}
+  m_Layer: 0
+  m_Name: h6.s4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6333929222842887042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332666531643912324}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4179359963186928042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332666531643912324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "..I\u2019m.."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &441816073252475303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3382498719178485022}
+  - component: {fileID: 8852208661335581365}
+  m_Layer: 0
+  m_Name: H6.C0.12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3382498719178485022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441816073252475303}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8852208661335581365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441816073252475303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "I, they\u2019re moving on their own! "
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &545686712174724806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8511216893595755346}
+  - component: {fileID: 1138619158164910686}
+  m_Layer: 0
+  m_Name: H6.C1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8511216893595755346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545686712174724806}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1779041303318420767}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138619158164910686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545686712174724806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: H6.C1.0
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &625097435344732619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7926906251029073315}
+  - component: {fileID: 8285812261825014935}
+  m_Layer: 0
+  m_Name: H6.C0.18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7926906251029073315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625097435344732619}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8285812261825014935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625097435344732619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: hehh.. hehh.. hehHHCK! AUGGHHH every movement HURTS!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &636361555157898955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3908126508368816557}
+  - component: {fileID: 4800190928570577441}
+  m_Layer: 0
+  m_Name: Chapter 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3908126508368816557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636361555157898955}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 496, y: 279, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8828929195923725400}
+  - {fileID: 5133504112019791406}
+  - {fileID: 990453420088185133}
+  - {fileID: 7647641773270362911}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4800190928570577441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636361555157898955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9935c2207f594ad892663eb39a214cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chapterNumber: 6
+  nextChapter: {fileID: 0}
+  triggerNextChapterNode: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  textBox: {fileID: 0}
+  sewingActiveImage: {fileID: 0}
+  userRoleUI: {fileID: 0}
+  machineRoleUI: {fileID: 0}
+  extraRoleUI: {fileID: 0}
+  sewingSuccessImage: {fileID: 0}
+  clickedImage: {fileID: 0}
+  errorMessageBox: {fileID: 0}
+  verboseSewingText: {fileID: 0}
+  verboseClickText: {fileID: 0}
+  verboseErrorText: {fileID: 0}
+  sewingSoundClip: {fileID: 8300000, guid: f1a560e7650e94329ac2aee11307c246, type: 3}
+  sewingAudioSource: {fileID: 0}
+  backgroundAudioSource: {fileID: 0}
+  wordAudioSource: {fileID: 0}
+  typingSoundClip: {fileID: 8300000, guid: 01607729273184339a2a24e43094132d, type: 3}
+  sewList:
+  - {fileID: 8510098593412230878}
+  - {fileID: 4729429977928968267}
+  - {fileID: 7728680639438116065}
+  - {fileID: 7577829815756530637}
+  - {fileID: 332666531643912324}
+  - {fileID: 2928401713570947962}
+  - {fileID: 7371147323764673861}
+  - {fileID: 4301453213768799476}
+  - {fileID: 2578921067715847958}
+  - {fileID: 4177886192685949267}
+  - {fileID: 7049240032155933579}
+  - {fileID: 4183396030464132162}
+  - {fileID: 1542518557759164000}
+  - {fileID: 3795035333743015139}
+  - {fileID: 5950401633830278745}
+  - {fileID: 6258758189469132258}
+  - {fileID: 7640949728267679856}
+  - {fileID: 4999051875114555233}
+  - {fileID: 7719325026714329021}
+  - {fileID: 4082933568707667973}
+  - {fileID: 7325222999884875525}
+  - {fileID: 6475338329755951683}
+  - {fileID: 8598434103242928483}
+  - {fileID: 1092742306759110360}
+  - {fileID: 7991798575567467473}
+  - {fileID: 9061788700316065138}
+  - {fileID: 7068627445480907504}
+  clickLists:
+  - {fileID: 3776273900551819279}
+  - {fileID: 8716799890637268558}
+  forcedLists:
+  - {fileID: 7928927867340287495}
+  - {fileID: 2585693535129859949}
+  - {fileID: 5262758151776451372}
+  endLists:
+  - {fileID: 5297994108066411314}
+  gameOverObject: {fileID: 0}
+  letterReveal_MinDelay: 0.02
+  letterReveal_MaxDelay: 0.1
+  letterReveal_HighlightDuration: 1
+  letterReveal_SizeMultiplier: 1.2
+  letterReveal_HighlightColor: {r: 0.85, g: 0.85, b: 0.85, a: 1}
+  requiredDistance: 50
+  maxHorizontalToVerticalRatio: 0.5
+  minYDeltaForRatioCheck: 0.01
+  minXDeltaWhenYIsZero: 0.01
+  mouseSensitivityY_Sewing: 10
+  mouseSensitivityX_Sewing: 10
+--- !u!1 &1092742306759110360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2592944237289090150}
+  - component: {fileID: 7272478813345752728}
+  m_Layer: 0
+  m_Name: h6.s23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2592944237289090150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092742306759110360}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7272478813345752728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092742306759110360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "And in this case, the wearer will enhance the dress\u2019s beauty!"
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1152303064393342656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2205826364072646322}
+  - component: {fileID: 4849759837283789847}
+  m_Layer: 0
+  m_Name: H6.C0.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2205826364072646322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152303064393342656}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4849759837283789847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152303064393342656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: I have.. stopped sewing.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1340230547489620498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3642345295494261314}
+  - component: {fileID: 6243355654794735031}
+  m_Layer: 0
+  m_Name: H6.C0.7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3642345295494261314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340230547489620498}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6243355654794735031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340230547489620498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: This seam is almost done, I would only have to secure it by going over
+    it again.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1346299217833570627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 352974530989589224}
+  - component: {fileID: 6089014211117610195}
+  m_Layer: 0
+  m_Name: F1 [H6.C0 14-24].0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &352974530989589224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346299217833570627}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4911695517309407670}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6089014211117610195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346299217833570627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: F1 [H6.C0 14-24].0
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1520800068519877779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4193833518415284611}
+  - component: {fileID: 4224806594840437813}
+  m_Layer: 0
+  m_Name: H6.C1.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4193833518415284611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520800068519877779}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1779041303318420767}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4224806594840437813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520800068519877779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: H6.C1.2
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1542518557759164000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4970606701571805070}
+  - component: {fileID: 8746819306952588627}
+  m_Layer: 0
+  m_Name: h6.s12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4970606701571805070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542518557759164000}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8746819306952588627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542518557759164000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: The worst part is, that it feels great.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1883544549702519637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5041745614240055772}
+  - component: {fileID: 505465258547398831}
+  m_Layer: 0
+  m_Name: H6.C0.4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5041745614240055772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883544549702519637}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &505465258547398831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883544549702519637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: .. sewing will help.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1889306774325972114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5577077924382974612}
+  - component: {fileID: 914933099106117398}
+  m_Layer: 0
+  m_Name: H6.C0.23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5577077924382974612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889306774325972114}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &914933099106117398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889306774325972114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Ohmygodpleaaseeeeeeeletitstopppp
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &2578921067715847958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789813864852944210}
+  - component: {fileID: 8600816126197638296}
+  m_Layer: 0
+  m_Name: h6.s8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &789813864852944210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578921067715847958}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8600816126197638296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578921067715847958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: It's true though.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &2585693535129859949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4911695517309407670}
+  - component: {fileID: 585356682247561148}
+  m_Layer: 0
+  m_Name: 'F1 [H6.C0 14-24]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4911695517309407670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585693535129859949}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 352974530989589224}
+  m_Father: {fileID: 990453420088185133}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &585356682247561148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585693535129859949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a807bd5714d498f9833649b23b30c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickListReference: {fileID: 3776273900551819279}
+  fromIndex: 14
+  toIndex: 24
+--- !u!1 &2716559633665858854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3097003456532257176}
+  - component: {fileID: 1335320794631996650}
+  m_Layer: 0
+  m_Name: H6.C0.16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3097003456532257176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2716559633665858854}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1335320794631996650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2716559633665858854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "This painnnnhgk! I, I, Oh God, I\u2019m stuck! "
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &2928401713570947962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7151104900493828992}
+  - component: {fileID: 7477814887664318452}
+  m_Layer: 0
+  m_Name: h6.s5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7151104900493828992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2928401713570947962}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7477814887664318452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2928401713570947962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "I\u2019m lighter. Like my arms are gliding over the table.. "
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &3347715760186208946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6344347016355525375}
+  - component: {fileID: 7211116174301584486}
+  m_Layer: 0
+  m_Name: H6.C0.9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6344347016355525375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3347715760186208946}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7211116174301584486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3347715760186208946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "I\u2019m not going to do it."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &3709865552613350435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2968505781225677856}
+  - component: {fileID: 7507818145546052338}
+  m_Layer: 0
+  m_Name: H6.C0.14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2968505781225677856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3709865552613350435}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7507818145546052338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3709865552613350435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 'AUGHHCK!! AAAAHHHHRAAHHHH WHAT IS-
+
+    bg switch: backstitch'
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &3776273900551819279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5303561768680959335}
+  m_Layer: 0
+  m_Name: H6.C0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5303561768680959335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3776273900551819279}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 987868777752256687}
+  - {fileID: 2205826364072646322}
+  - {fileID: 7002618937975858676}
+  - {fileID: 8280359547705329511}
+  - {fileID: 5041745614240055772}
+  - {fileID: 5859264234412159730}
+  - {fileID: 396887622394332176}
+  - {fileID: 3642345295494261314}
+  - {fileID: 547781095678137232}
+  - {fileID: 6344347016355525375}
+  - {fileID: 4182108809317485574}
+  - {fileID: 7892358361194428643}
+  - {fileID: 3382498719178485022}
+  - {fileID: 4661567727684954895}
+  - {fileID: 2968505781225677856}
+  - {fileID: 1248376239468526073}
+  - {fileID: 3097003456532257176}
+  - {fileID: 100973516198736626}
+  - {fileID: 7926906251029073315}
+  - {fileID: 3433353975691488119}
+  - {fileID: 4696033736420827207}
+  - {fileID: 5480012929424439621}
+  - {fileID: 1320425632582401185}
+  - {fileID: 5577077924382974612}
+  - {fileID: 6869057208927946952}
+  m_Father: {fileID: 5133504112019791406}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3795035333743015139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2291328849215986877}
+  - component: {fileID: 2932089157035446164}
+  m_Layer: 0
+  m_Name: h6.s13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2291328849215986877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3795035333743015139}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2932089157035446164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3795035333743015139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: I feel.. incredible. So graceful, the brilliant master behind the artwork.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &3938029512322508297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987868777752256687}
+  - component: {fileID: 6754602186384229366}
+  m_Layer: 0
+  m_Name: H6.C0.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &987868777752256687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3938029512322508297}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6754602186384229366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3938029512322508297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Ugh, what is happening to me..
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &4082933568707667973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7239420442106486028}
+  - component: {fileID: 4926075417908179312}
+  m_Layer: 0
+  m_Name: h6.s19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7239420442106486028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4082933568707667973}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4926075417908179312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4082933568707667973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Your song, each clack guiding me towards..
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &4177886192685949267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5557792877127307508}
+  - component: {fileID: 1144426304742845887}
+  m_Layer: 0
+  m_Name: h6.s9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5557792877127307508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177886192685949267}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1144426304742845887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177886192685949267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: No.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &4183396030464132162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3729777179303385376}
+  - component: {fileID: 2179602621133438104}
+  m_Layer: 0
+  m_Name: h6.s11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3729777179303385376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4183396030464132162}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2179602621133438104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4183396030464132162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: What has this machine done to me!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &4301453213768799476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5789315169154019467}
+  - component: {fileID: 1411656595737694659}
+  m_Layer: 0
+  m_Name: h6.s7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5789315169154019467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4301453213768799476}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1411656595737694659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4301453213768799476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: What am I saying??
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &4496718027832203746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6869057208927946952}
+  - component: {fileID: 4463291817679619479}
+  m_Layer: 0
+  m_Name: H6.C0.24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6869057208927946952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4496718027832203746}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4463291817679619479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4496718027832203746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: hhahahahaa let IT STOP AAAHHHHHHHHH
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &4729429977928968267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2188573939096939618}
+  - component: {fileID: 4540024476451522542}
+  m_Layer: 0
+  m_Name: h6.s1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2188573939096939618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4729429977928968267}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4540024476451522542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4729429977928968267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: WHAAH?? WHAT IS THIS?
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &4999051875114555233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3155130167992934455}
+  - component: {fileID: 1723533780795882068}
+  m_Layer: 0
+  m_Name: h6.s17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3155130167992934455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4999051875114555233}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1723533780795882068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4999051875114555233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: This machine is my guide.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &5060355247705119629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4661567727684954895}
+  - component: {fileID: 8094193190828840806}
+  m_Layer: 0
+  m_Name: H6.C0.13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4661567727684954895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5060355247705119629}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8094193190828840806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5060355247705119629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: My arms flowing gracefully behind me, starting to weave..
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &5209605484118985039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 396887622394332176}
+  - component: {fileID: 4400424308199344324}
+  m_Layer: 0
+  m_Name: H6.C0.6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &396887622394332176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5209605484118985039}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4400424308199344324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5209605484118985039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: The machine wants me to continue, why should I deny us of the bliss?
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &5262758151776451372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1120375027106905320}
+  - component: {fileID: 3526701518498805041}
+  m_Layer: 0
+  m_Name: 'F2 [H6.C1 0-2]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1120375027106905320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5262758151776451372}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 513302524252322306}
+  m_Father: {fileID: 990453420088185133}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3526701518498805041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5262758151776451372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a807bd5714d498f9833649b23b30c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickListReference: {fileID: 8716799890637268558}
+  fromIndex: 0
+  toIndex: 2
+--- !u!1 &5297994108066411314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2639274525731192490}
+  m_Layer: 0
+  m_Name: 'E0 [H6.C2 0-0]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2639274525731192490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297994108066411314}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5281019276778033184}
+  m_Father: {fileID: 7647641773270362911}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5443962947484807055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5133504112019791406}
+  m_Layer: 0
+  m_Name: ClickLists
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5133504112019791406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5443962947484807055}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -496, y: -279, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5303561768680959335}
+  - {fileID: 1779041303318420767}
+  m_Father: {fileID: 3908126508368816557}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5463932871727139937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4696033736420827207}
+  - component: {fileID: 3302408028064731141}
+  m_Layer: 0
+  m_Name: H6.C0.20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4696033736420827207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5463932871727139937}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3302408028064731141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5463932871727139937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: AOOOHGHFK! NO MORE!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &5515885194354753399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7892358361194428643}
+  - component: {fileID: 131501458907585259}
+  m_Layer: 0
+  m_Name: H6.C0.11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7892358361194428643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515885194354753399}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &131501458907585259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515885194354753399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Agh, why are my fingers weaving the thread though its eye?
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &5950401633830278745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5276355675684742356}
+  - component: {fileID: 8015888012165287245}
+  m_Layer: 0
+  m_Name: h6.s14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5276355675684742356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5950401633830278745}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8015888012165287245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5950401633830278745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Yes..
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &6110237971456549065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5480012929424439621}
+  - component: {fileID: 2111094225987822923}
+  m_Layer: 0
+  m_Name: H6.C0.21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5480012929424439621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6110237971456549065}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2111094225987822923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6110237971456549065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: I CANT BEAR IT ANYMORE!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &6258758189469132258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2612859965650782571}
+  - component: {fileID: 2179390753263539847}
+  m_Layer: 0
+  m_Name: h6.s15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2612859965650782571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6258758189469132258}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2179390753263539847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6258758189469132258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: This is my best creation yet.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &6264700246867658309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4182108809317485574}
+  - component: {fileID: 3799000259755987239}
+  m_Layer: 0
+  m_Name: H6.C0.10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4182108809317485574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6264700246867658309}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3799000259755987239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6264700246867658309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Then why is my arm reaching out towards a needle?
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &6382604235905348858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1320425632582401185}
+  - component: {fileID: 3041767726321326969}
+  m_Layer: 0
+  m_Name: H6.C0.22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1320425632582401185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6382604235905348858}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3041767726321326969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6382604235905348858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: HHAARGHHH!!! PLEASE!!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &6475338329755951683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7781991470500996940}
+  - component: {fileID: 5554969262629488071}
+  m_Layer: 0
+  m_Name: h6.s21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7781991470500996940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6475338329755951683}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5554969262629488071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6475338329755951683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: A dress, made not only for the wearer, but to enhance itself as well..
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &6542420945667457754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8828929195923725400}
+  m_Layer: 0
+  m_Name: SewNodes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8828929195923725400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6542420945667457754}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -496, y: -279, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4677229287000581656}
+  - {fileID: 2188573939096939618}
+  - {fileID: 6111745405498602195}
+  - {fileID: 3394626475148768166}
+  - {fileID: 6333929222842887042}
+  - {fileID: 7151104900493828992}
+  - {fileID: 1102741321767783209}
+  - {fileID: 5789315169154019467}
+  - {fileID: 789813864852944210}
+  - {fileID: 5557792877127307508}
+  - {fileID: 8391314519452801468}
+  - {fileID: 3729777179303385376}
+  - {fileID: 4970606701571805070}
+  - {fileID: 2291328849215986877}
+  - {fileID: 5276355675684742356}
+  - {fileID: 2612859965650782571}
+  - {fileID: 3771615015651090620}
+  - {fileID: 3155130167992934455}
+  - {fileID: 5040833687526972088}
+  - {fileID: 7239420442106486028}
+  - {fileID: 6569872736610591381}
+  - {fileID: 7781991470500996940}
+  - {fileID: 6358339559834319449}
+  - {fileID: 2592944237289090150}
+  - {fileID: 4687613996106583368}
+  - {fileID: 6706138479333610955}
+  - {fileID: 4474368916577245506}
+  m_Father: {fileID: 3908126508368816557}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6657027682830121996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7647641773270362911}
+  m_Layer: 0
+  m_Name: EndLists
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7647641773270362911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6657027682830121996}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -496, y: -279, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2639274525731192490}
+  m_Father: {fileID: 3908126508368816557}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6989787522699688198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5281019276778033184}
+  - component: {fileID: 4038004911346487004}
+  m_Layer: 0
+  m_Name: E0 [H6.C2 0-0].0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5281019276778033184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6989787522699688198}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2639274525731192490}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4038004911346487004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6989787522699688198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: EndList
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &6993605735527278236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4293963049940758730}
+  - component: {fileID: 3312596512164986847}
+  m_Layer: 0
+  m_Name: H6.C1.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4293963049940758730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6993605735527278236}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1779041303318420767}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3312596512164986847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6993605735527278236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: H6.C1.1
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7049240032155933579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8391314519452801468}
+  - component: {fileID: 6075684508786930076}
+  m_Layer: 0
+  m_Name: h6.s10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8391314519452801468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049240032155933579}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6075684508786930076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049240032155933579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: This cannot be true, look around!!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7068627445480907504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4474368916577245506}
+  - component: {fileID: 7955545263011875226}
+  m_Layer: 0
+  m_Name: h6.s26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4474368916577245506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068627445480907504}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7955545263011875226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068627445480907504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 'I will make a true art piece! One never seen before!
+
+    -element 26
+    bg backstitch'
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7161343498618175074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3433353975691488119}
+  - component: {fileID: 9172465560259008049}
+  m_Layer: 0
+  m_Name: H6.C0.19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3433353975691488119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7161343498618175074}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9172465560259008049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7161343498618175074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: The.. salvation... is right before me..!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7285831156944450103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100973516198736626}
+  - component: {fileID: 4783773195640096273}
+  m_Layer: 0
+  m_Name: H6.C0.17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &100973516198736626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7285831156944450103}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4783773195640096273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7285831156944450103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "nghh! It hurts!! The fabric, behind me.. is.. it\u2019s fused with my
+    spine!"
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7325222999884875525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6569872736610591381}
+  - component: {fileID: 6620338531079179847}
+  m_Layer: 0
+  m_Name: h6.s20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6569872736610591381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7325222999884875525}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6620338531079179847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7325222999884875525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Towards harmony.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7371147323764673861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1102741321767783209}
+  - component: {fileID: 105596883482048512}
+  m_Layer: 0
+  m_Name: h6.s6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1102741321767783209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371147323764673861}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &105596883482048512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371147323764673861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 'And my foot is dancing gracefully on the pedal. '
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7577829815756530637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3394626475148768166}
+  - component: {fileID: 796692309824087944}
+  m_Layer: 0
+  m_Name: h6.s3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3394626475148768166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7577829815756530637}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &796692309824087944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7577829815756530637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "..So I couldn\u2019t have sewn all this, right?"
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7640949728267679856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3771615015651090620}
+  - component: {fileID: 1117777925211835425}
+  m_Layer: 0
+  m_Name: h6.s16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3771615015651090620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7640949728267679856}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1117777925211835425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7640949728267679856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "I can\u2019t quite put my finger on why, i just feel it.. the potential."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7709958940728346784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8280359547705329511}
+  - component: {fileID: 4441812778227598060}
+  m_Layer: 0
+  m_Name: H6.C0.3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8280359547705329511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709958940728346784}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4441812778227598060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709958940728346784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "I don\u2019t know if that\u2019s because of this.. artwork.. or because
+    i stopped sewing."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7719325026714329021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5040833687526972088}
+  - component: {fileID: 7744060680975773197}
+  m_Layer: 0
+  m_Name: h6.s18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5040833687526972088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719325026714329021}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7744060680975773197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719325026714329021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: I hear your song.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7728680639438116065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6111745405498602195}
+  - component: {fileID: 8731004395789386533}
+  m_Layer: 0
+  m_Name: h6.s2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6111745405498602195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7728680639438116065}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8731004395789386533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7728680639438116065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "I.. must\u2019ve passed out."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7730835284321920064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 990453420088185133}
+  m_Layer: 0
+  m_Name: ForcedLists
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &990453420088185133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7730835284321920064}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -496, y: -279, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3289737828399261568}
+  - {fileID: 4911695517309407670}
+  - {fileID: 1120375027106905320}
+  m_Father: {fileID: 3908126508368816557}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7740491107434628511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 513302524252322306}
+  - component: {fileID: 3098160572138095261}
+  m_Layer: 0
+  m_Name: F2 [H6.C1 0-2].0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &513302524252322306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7740491107434628511}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1120375027106905320}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3098160572138095261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7740491107434628511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &7928927867340287495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3289737828399261568}
+  - component: {fileID: 3343541724882929126}
+  m_Layer: 0
+  m_Name: 'F0 [H6.C0 0-13]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3289737828399261568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7928927867340287495}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6822375569057491816}
+  m_Father: {fileID: 990453420088185133}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3343541724882929126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7928927867340287495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a807bd5714d498f9833649b23b30c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickListReference: {fileID: 3776273900551819279}
+  fromIndex: 0
+  toIndex: 13
+--- !u!1 &7991798575567467473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4687613996106583368}
+  - component: {fileID: 4666935783320686572}
+  m_Layer: 0
+  m_Name: h6.s24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687613996106583368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7991798575567467473}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4666935783320686572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7991798575567467473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Entwined together, harmony, perfection, can be achieved!!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &8435304579980843735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6822375569057491816}
+  - component: {fileID: 674355416056828979}
+  m_Layer: 0
+  m_Name: F0 [H6.C0 0-13].0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6822375569057491816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8435304579980843735}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3289737828399261568}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &674355416056828979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8435304579980843735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: F0 [H6.C0 0-13].0
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &8510098593412230878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4677229287000581656}
+  - component: {fileID: 5878859716646844145}
+  m_Layer: 0
+  m_Name: h6.s0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4677229287000581656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8510098593412230878}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5878859716646844145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8510098593412230878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Wha.. huh?
+  background: {fileID: 21300000, guid: 78548be4d7bd44d4ba711ee7abba6488, type: 3}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &8598434103242928483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6358339559834319449}
+  - component: {fileID: 2320555482991068326}
+  m_Layer: 0
+  m_Name: h6.s22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6358339559834319449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598434103242928483}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2320555482991068326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598434103242928483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: For the dress enhances the beauty of the wearer.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &8649834600086216440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1248376239468526073}
+  - component: {fileID: 8087241997549901086}
+  m_Layer: 0
+  m_Name: H6.C0.15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1248376239468526073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649834600086216440}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8087241997549901086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649834600086216440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: GAAAHHHHHHNNNGGHHHHUH! MY BACKKH!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &8716799890637268558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779041303318420767}
+  m_Layer: 0
+  m_Name: H6.C1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1779041303318420767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8716799890637268558}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8511216893595755346}
+  - {fileID: 4293963049940758730}
+  - {fileID: 4193833518415284611}
+  m_Father: {fileID: 5133504112019791406}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8720539580200756179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547781095678137232}
+  - component: {fileID: 4892523301912975505}
+  m_Layer: 0
+  m_Name: H6.C0.8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547781095678137232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8720539580200756179}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5303561768680959335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4892523301912975505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8720539580200756179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "But i won\u2019t do the backstitch."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &9061788700316065138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6706138479333610955}
+  - component: {fileID: 7059331823456329445}
+  m_Layer: 0
+  m_Name: h6.s25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6706138479333610955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9061788700316065138}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8828929195923725400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7059331823456329445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9061788700316065138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "This won\u2019t be a run-of-the-mill wedding dress anymore."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
