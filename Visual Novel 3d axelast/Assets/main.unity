@@ -1079,7 +1079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1440205178}
   textBox: {fileID: 637877428}
-  currentNode: {fileID: 1046340097}
+  currentNode: {fileID: 0}
   sewingActiveImage: {fileID: 460812521}
   userRoleUI: {fileID: 1352220799}
   machineRoleUI: {fileID: 121640272}
@@ -4855,7 +4855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRole: 1
+  nodeRole: 0
   meetellenAlsClick: 1
   disableClick: 0
   disableSew: 0
@@ -12287,7 +12287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &789418742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15762,8 +15762,7 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 6
-  nodeText: "I don\u2019t even have to do anything. Greatness has a will of it\u2019s
-    own."
+  nodeText: "I don\u2019t even have to do anything. Greatness has a will of its own."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -34656,7 +34655,7 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 6
-  nodeText: Good. I will continue on my masterpiece. that feels right!
+  nodeText: Good. I will continue on my masterpiece. That feels right!
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
