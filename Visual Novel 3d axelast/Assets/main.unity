@@ -2284,6 +2284,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1101976300}
+  - {fileID: 359721390}
   m_Father: {fileID: 980008606}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &113452503
@@ -2662,16 +2663,17 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: "Daar zit je dan. Half door de kamer hangend, half nog op de stoel. Onafgemaakt.
-    Je bloedvaten pulseren over delen van de stof heen, en worden uit je getrokken
-    bij elke steek. Het is een rare sensatie, dat er vanbinnenuit aan je getrokken
-    wordt. Je wordt haast als een soort handschoen binnenstebuiten getrokken door
-    de hand, door de gierige steken van de naaimachine. \nDan plots wordt er een
-    sluier van je af gehaald. Waar je eerst alles in een gedempte mist ervaarde,
-    ervaar je nu alles in hete, felle en verschrikkelijk stekende pijn.\nVoor je
-    het weet zijn al je spieren uit shock aangespannen, maar dat zorgt juist voor
-    nog een golf aan withete pijn. De bovenste helft van je spieren, verweven met
-    de stof, trekken aan de zenuwdraden, die bloot zijn komen te liggen aan de lucht."
+  nodeText: "There you are. A bit of you hanging across the room, the most of you
+    still clinging to the chair. Unfinished. Your veins pulse across patches of fabric,
+    tugged out of you with every stitch. It is a grotesque sensation\u2014to feel
+    yourself being pulled from the inside out. Like a glove, turned inside out by
+    greedy hands, you are inverted by the stitches of the machine.\nThen, suddenly,
+    a veil is torn away. Where once everything was dulled, shrouded in haze, you
+    now feel it all, a searing, blinding, unbearably sharp pain.\nBefore you can
+    comprehend, every muscle seizes in shock. But the convulsion only unleashes another
+    wave of white-hot agony. The upper half of your muscles, already woven into the
+    fabric, tug mercilessly at the nerve-threads, exposed and quivering in the open
+    air."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -3086,6 +3088,80 @@ MonoBehaviour:
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 1300400092}
   nextOnClick: {fileID: 133592998}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &144559418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 144559419}
+  - component: {fileID: 144559420}
+  m_Layer: 0
+  m_Name: E1 [H8.C1 8-8].1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144559419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144559418}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 990843124}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144559420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144559418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 8
+  nodeText: "Then, machine stops sewing.\n In a moment of agonizing anticipation,
+    you feel the unbearable weight of your contorted, stretched body and you simply
+    cannot take it anymore. You try to scream, but your mouth can\u2019t open under
+    the strain. Instead, only a strained, whistling groan escapes.\nThen the machine
+    explodes into motion, sewing with furious abandon. Whatever precision it once
+    possessed is gone. With each sudden thrust of the needle, with each convulsion
+    of your body, your veins, your skin, your nerves rip and burst and are torn apart.\nWaves
+    of pain hammer through the remnants of flesh and fabric you have become, as you
+    are wrenched helplessly from chair to wall to cabinet, consumed by the machine.
+    It shreds you into strips, stitches you back together, only to rip you apart
+    again.\nAnd only long after your nerves have died and your blood has clotted
+    does it finally discard you, tossing what remains of you carelessly onto the
+    floor."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
   object1:
     gameObject: {fileID: 0}
     activateOnStart: 0
@@ -4926,19 +5002,23 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: 'Al je zenuwdraden zijn verwoven en bloot aan de lucht. Elke prik strekt
-    je verder weg van je veilige lichaam. Elke pulsatie van je hart gonst een golf
-    van pijn door je aderen langs je gevoelige zenuwen naar de uiteindes van je stof,
-    langs een vingerbotje, daarverderop is het topje, en weer terug langs je oog.
-    Een heese ademteug snakt naar lucht en verlichting, maar de opblazing perst je
-    stof samen en de spieren spannen aan in shock. De aangespannen staat bied heel
-    even verlichting van de pijn, maar nadat alle zuurstof gestolen is naar het bloed
-    moet uitgeademnd worden.
-
-    Langzaam en voorzichtig, lest the pain shoots ongecontroleerd
-    again. Prik! Voor je het weet spannen alle spieren aan, schreeuw je de lucht
-    naar buiten, hart in overtoeren van de shock en elke bloedgons langs je zenuwen
-    zenden meer pijn toe.'
+  nodeText: "Relax your muscles, quickly! Too quickly. The jerking attempt to loosen
+    your arms sends another screaming surge of pain, tearing up through your upper
+    arm, stabbing straight into your back. And farther still. From your back, the
+    pain spreads outward, racing along the tangled scraps of fabric that now make
+    up part of you. To the very ends of the unfinished husk you\u2019ve become, every
+    piece of you tightens in agony. With your twisted, mutilated remnants of flesh
+    and cloth, you can do nothing but scream in the desperate hope of relief.\nBut
+    relief never comes. Your veins were never fully bound into the fabric. They were
+    weak, fragile, half-sewn. Now, in your struggle, those tender vessels have torn.
+    Red blossoms across you. The machine watches, delighted, as your spasms drag
+    you deeper into torment.\nAnd now, oh god, let this moment end, now the cruel
+    device abandons all its restraint. The needle rages, shredding your skin without
+    care, without precision. You realize what is happening, but far, far too late.
+    Before you can comprehend, your nerves, your muscles, your skin, even your eyes
+    are pierced in thousands of torturous stitches. From front to back, from bottom
+    to top, you are ripped apart and thrashed around, while scraps of blood, flesh,
+    and fabric are discarded without purpose, thrown carelessly onto the floor."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -5381,6 +5461,88 @@ MonoBehaviour:
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 1713127307}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &256961421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256961422}
+  - component: {fileID: 256961423}
+  m_Layer: 0
+  m_Name: F7 [H6.C2 0-8].4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &256961422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256961421}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1589345433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &256961423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256961421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 'All of your nerves are strung out, woven bare into the open air. Every
+    stitch stretches you further away from the safety of your body. Every pulse of
+    your heart hammers a wave of agony through your veins, across your raw nerves,
+    to the farthest edges of your new form. Down past a finger bone, out to the tip,
+    and back again, passing along your frantic eye.
+
+    A hoarse gasp claws for
+    air, for release, but your body swells and contracts, compressing the threads
+    of your flesh as your muscles seize in shock. For just a moment, the tension
+    grants a blessed relief. But once the last drop of oxygen is stolen into your
+    blood, the breath must be forced out.
+
+    Slowly. Carefully. Lest the pain erupts,
+    excruciating and uncontrollable.
+
+    Stitch.
+
+    Before you know it, every
+    muscle convulses, a scream tears free from your throat, your heart thrashes in
+    your chest, and with each pounding beat, your blood surges along your exposed
+    nerves, sending another flood of unbearable pain to every last thread of you.'
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
   object1:
     gameObject: {fileID: 0}
     activateOnStart: 0
@@ -6814,6 +6976,88 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &305343273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 305343274}
+  - component: {fileID: 305343275}
+  m_Layer: 0
+  m_Name: E1.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &305343274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305343273}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 765790753}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &305343275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305343273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 'All of your nerves are strung out, woven bare into the open air. Every
+    stitch stretches you further away from the safety of your body. Every pulse of
+    your heart hammers a wave of agony through your veins, across your raw nerves,
+    to the farthest edges of your new form. Down past a finger bone, out to the tip,
+    and back again, passing along your frantic eye.
+
+    A hoarse gasp claws for
+    air, for release, but your body swells and contracts, compressing the threads
+    of your flesh as your muscles seize in shock. For just a moment, the tension
+    grants a blessed relief. But once the last drop of oxygen is stolen into your
+    blood, the breath must be forced out.
+
+    Slowly. Carefully. Lest the pain erupts,
+    excruciating and uncontrollable.
+
+    Stitch.
+
+    Before you know it, every
+    muscle convulses, a scream tears free from your throat, your heart thrashes in
+    your chest, and with each pounding beat, your blood surges along your exposed
+    nerves, sending another flood of unbearable pain to every last thread of you.'
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &311109453
 GameObject:
   m_ObjectHideFlags: 0
@@ -7975,6 +8219,80 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &359721389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359721390}
+  - component: {fileID: 359721391}
+  m_Layer: 0
+  m_Name: E0 [H8.C0 16-16].1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &359721390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359721389}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 110754639}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &359721391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359721389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 8
+  nodeText: "Then, machine stops sewing.\n In a moment of agonizing anticipation,
+    you feel the unbearable weight of your contorted, stretched body and you simply
+    cannot take it anymore. You try to scream, but your mouth can\u2019t open under
+    the strain. Instead, only a strained, whistling groan escapes.\nThen the machine
+    explodes into motion, sewing with furious abandon. Whatever precision it once
+    possessed is gone. With each sudden thrust of the needle, with each convulsion
+    of your body, your veins, your skin, your nerves rip and burst and are torn apart.\nWaves
+    of pain hammer through the remnants of flesh and fabric you have become, as you
+    are wrenched helplessly from chair to wall to cabinet, consumed by the machine.
+    It shreds you into strips, stitches you back together, only to rip you apart
+    again.\nAnd only long after your nerves have died and your blood has clotted
+    does it finally discard you, tossing what remains of you carelessly onto the
+    floor."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &365602848
 GameObject:
   m_ObjectHideFlags: 0
@@ -8148,7 +8466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -9522,24 +9840,23 @@ MonoBehaviour:
   disableClick: 1
   disableSew: 1
   chapter: 7
-  nodeText: "Snel, ontspan je spieren! Te snel, de schokkerige poging om je armen
-    te ontspannen zendt nog een golf aan pijn uit, gierend je bovenarm op en rechtstreeks
-    je rug in. En verder. Vanuit je rug verspreid de pijn zich door de ruimte over
-    de wanordige lappen stof, waaraan je deels een bent geworden. Tot daar, tot in
-    de uiteindes van het onvoltooide gewrocht dat je bent, ben je aangespannen uit
-    pijn. Met je verkrampte en verminkte lappen en lichaam kan je het alleen maar
-    uitschreeuwen van de pijn, om het hopelijk te verlichten. \nMaar verlichting
-    brengt het niet. Je bloedvaten waren nog niet goed verwoven met de rest van de
-    stof. Ze zaten gammel vast. Deze tere vaatjes scheurden tijdens de inspanning,
-    en nu kleur je rood. De naaimachine keek heerlijk toe hoe je krampachtig verging
-    van de pijn. Nu, oh god verlicht dit moment, nu, naait het wrede ding zonder
-    inhibitie. Je huid wordt van je af gescheurd als hij begint te razen met de naald,
-    geen oog meer hebbend om het netjes te houden. Je realiseert wat er gebeurd,
-    maar het is al lang, lang te laat. Voor je het weet worden je zenuwen en spieren
-    en huid en ogen ondergeprikt in duizenden tergende naaldsteken, van voor naar
-    achter en onder naar boven wordt je uit elkaar getrokken en heen en weer gesleurd,
-    en lappen bloed, vlees en stof worden zonder enig verder doel afgedankt op de
-    vloer gesmeten."
+  nodeText: "Relax your muscles, quickly! Too quickly. The jerking attempt to loosen
+    your arms sends another screaming surge of pain, tearing up through your upper
+    arm, stabbing straight into your back. And farther still. From your back, the
+    pain spreads outward, racing along the tangled scraps of fabric that now make
+    up part of you. To the very ends of the unfinished husk you\u2019ve become, every
+    piece of you tightens in agony. With your twisted, mutilated remnants of flesh
+    and cloth, you can do nothing but scream in the desperate hope of relief.\nBut
+    relief never comes. Your veins were never fully bound into the fabric. They were
+    weak, fragile, half-sewn. Now, in your struggle, those tender vessels have torn.
+    Red blossoms across you. The machine watches, delighted, as your spasms drag
+    you deeper into torment.\nAnd now, oh god, let this moment end, now the cruel
+    device abandons all its restraint. The needle rages, shredding your skin without
+    care, without precision. You realize what is happening, but far, far too late.
+    Before you can comprehend, your nerves, your muscles, your skin, even your eyes
+    are pierced in thousands of torturous stitches. From front to back, from bottom
+    to top, you are ripped apart and thrashed around, while scraps of blood, flesh,
+    and fabric are discarded without purpose, thrown carelessly onto the floor."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -9568,7 +9885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &444881550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11887,6 +12204,7 @@ Transform:
   - {fileID: 835669269}
   - {fileID: 1896924675}
   - {fileID: 1415770287}
+  - {fileID: 2005393726}
   m_Father: {fileID: 238629669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &541949963
@@ -14714,19 +15032,16 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 6
-  nodeText: 'Al je zenuwdraden zijn verwoven en bloot aan de lucht. Elke prik strekt
-    je verder weg van je veilige lichaam. Elke pulsatie van je hart gonst een golf
-    van pijn door je aderen langs je gevoelige zenuwen naar de uiteindes van je stof,
-    langs een vingerbotje, daarverderop is het topje, en weer terug langs je oog.
-    Een heese ademteug snakt naar lucht en verlichting, maar de opblazing perst je
-    stof samen en de spieren spannen aan in shock. De aangespannen staat bied heel
-    even verlichting van de pijn, maar nadat alle zuurstof gestolen is naar het bloed
-    moet uitgeademnd worden.
+  nodeText: 'Your hands are stitched tight, woven into the fabric by the machine.
+    With your back pinned down, the machine pulls you apart. Strip by strip, your
+    skin is peeled away and threaded across the room. Your veins lie exposed, ripe
+    for the taking. The sewing machine claims them as thread, reshaping you into
+    nothing but a helpless scrap of cloth. It binds your nerves close against your
+    blood vessels and muscles. Just close enough that you can feel every single shred
+    of yourself, without the comfort of your body warmth.
 
-    Langzaam en voorzichtig, lest the pain shoots ongecontroleerd
-    again. Prik! Voor je het weet spannen alle spieren aan, schreeuw je de lucht
-    naar buiten, hart in overtoeren van de shock en elke bloedgons langs je zenuwen
-    zenden meer pijn toe.'
+    And all of a sudden,
+    your senses are bombarded.'
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -16622,6 +16937,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 671520079}
+  - {fileID: 305343274}
   m_Father: {fileID: 620439718399125255}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &777074189
@@ -19174,7 +19490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -20730,6 +21046,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1263380514}
+  - {fileID: 144559419}
   m_Father: {fileID: 980008606}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &994617121
@@ -21938,7 +22255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -22443,16 +22760,17 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: 'Machteloos aan de machine, wordt je huid reepje voor reepje gruwelijk
-    slordig gepeld. Lappen huid en stof vermengen met elkaar, verbonden door je bloedvaten.
-    Als er genoeg huid weggescheurt is, graait de naald in je, op zoek naar iets.
-    Dan plotseling voel je een heetwitte pijnscheut en je staat direct krom van de
-    pijn, voor zover dat kan met je rug in reepjes. De naaimachine pakt je zenuwdraad
-    zoals een vogel een dikke worm heeft gevangen, en trekt hem omhoog.
-
-    Steek
-    voor steek voel je een heetwitte pijnexplosie als je zenuwen geplukt en verwoven
-    worden. Je hebt geen optie, behalve schreeuwen. '
+  nodeText: "There you are. A bit of you hanging across the room, the most of you
+    still clinging to the chair. Unfinished. Your veins pulse across patches of fabric,
+    tugged out of you with every stitch. It is a grotesque sensation\u2014to feel
+    yourself being pulled from the inside out. Like a glove, turned inside out by
+    greedy hands, you are inverted by the stitches of the machine.\nThen, suddenly,
+    a veil is torn away. Where once everything was dulled, shrouded in haze, you
+    now feel it all, a searing, blinding, unbearably sharp pain.\nBefore you can
+    comprehend, every muscle seizes in shock. But the convulsion only unleashes another
+    wave of white-hot agony. The upper half of your muscles, already woven into the
+    fabric, tug mercilessly at the nerve-threads, exposed and quivering in the open
+    air."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -23344,11 +23662,21 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 8
-  nodeText: 'Je hangt verdeeld door de kamer, leunend op je hergeorganiseerde botten
-    en omliggend meubilair. Stof en huid is slordig vermengd met elkaar. Helemaal
-    door de war. Hoe kon dit ooit gezien worden als harmonie, perfectie? Net nadat
-    de gedachte door je brein gegaan is, wordt je aandacht dringend afgepakt. Een
-    verschrikkelijke pijnscheut vanuit de '
+  nodeText: 'You hang scattered across the room, leaning against your rearranged
+    bones and the surrounding furniture. Flesh and fabric are crudely and chaotically
+    tangled together. How could this ever be mistaken for harmony, for perfection?
+
+    The
+    thought barely crosses your mind before it is stolen away. A terrible bolt of
+    pain surges from the depths of your back. You are pulled upward, from the point
+    where your spine is stitched into the fabric. Yet you do not rise, for your arms,
+    your skin, your face are bound fast beneath the sewing machine.
+
+    You are
+    stretched taut by its greedy needle, stitched, stitch by gruesome stitch, further
+    toward your doom. Your veins and nerves strain to their breaking point, until
+    you can no longer endure it. You remain frozen, unmoving, paralyzed by shock
+    and the dread of what is to come.'
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -25449,7 +25777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -25568,7 +25896,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 199.333, y: 313.778}
+  m_SizeDelta: {x: 210, y: 313.778}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230432231
 MonoBehaviour:
@@ -26611,11 +26939,21 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 8
-  nodeText: 'Je hangt verdeeld door de kamer, leunend op je hergeorganiseerde botten
-    en omliggend meubilair. Stof en huid is slordig vermengd met elkaar. Helemaal
-    door de war. Hoe kon dit ooit gezien worden als harmonie, perfectie? Net nadat
-    de gedachte door je brein gegaan is, wordt je aandacht dringend afgepakt. Een
-    verschrikkelijke pijnscheut vanuit de '
+  nodeText: 'You hang scattered across the room, leaning against your rearranged
+    bones and the surrounding furniture. Flesh and fabric are crudely and chaotically
+    tangled together. How could this ever be mistaken for harmony, for perfection?
+
+    The
+    thought barely crosses your mind before it is stolen away. A terrible bolt of
+    pain surges from the depths of your back. You are pulled upward, from the point
+    where your spine is stitched into the fabric. Yet you do not rise, for your arms,
+    your skin, your face are bound fast beneath the sewing machine.
+
+    You are
+    stretched taut by its greedy needle, stitched, stitch by gruesome stitch, further
+    toward your doom. Your veins and nerves strain to their breaking point, until
+    you can no longer endure it. You remain frozen, unmoving, paralyzed by shock
+    and the dread of what is to come.'
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -26910,7 +27248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -29304,7 +29642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -30143,6 +30481,88 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &1390639979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1390639980}
+  - component: {fileID: 1390639981}
+  m_Layer: 0
+  m_Name: E0 [H6.C0 31-31].6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1390639980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390639979}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5052274882792862386}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1390639981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390639979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 'All of your nerves are strung out, woven bare into the open air. Every
+    stitch stretches you further away from the safety of your body. Every pulse of
+    your heart hammers a wave of agony through your veins, across your raw nerves,
+    to the farthest edges of your new form. Down past a finger bone, out to the tip,
+    and back again, passing along your frantic eye.
+
+    A hoarse gasp claws for
+    air, for release, but your body swells and contracts, compressing the threads
+    of your flesh as your muscles seize in shock. For just a moment, the tension
+    grants a blessed relief. But once the last drop of oxygen is stolen into your
+    blood, the breath must be forced out.
+
+    Slowly. Carefully. Lest the pain erupts,
+    excruciating and uncontrollable.
+
+    Stitch.
+
+    Before you know it, every
+    muscle convulses, a scream tears free from your throat, your heart thrashes in
+    your chest, and with each pounding beat, your blood surges along your exposed
+    nerves, sending another flood of unbearable pain to every last thread of you.'
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &1396837650
 GameObject:
   m_ObjectHideFlags: 0
@@ -30518,11 +30938,21 @@ MonoBehaviour:
   disableClick: 1
   disableSew: 1
   chapter: 8
-  nodeText: 'Je hangt verdeeld door de kamer, leunend op je hergeorganiseerde botten
-    en omliggend meubilair. Stof en huid is slordig vermengd met elkaar. Helemaal
-    door de war. Hoe kon dit ooit gezien worden als harmonie, perfectie? Net nadat
-    de gedachte door je brein gegaan is, wordt je aandacht dringend afgepakt. Een
-    verschrikkelijke pijnscheut vanuit de '
+  nodeText: 'You hang scattered across the room, leaning against your rearranged
+    bones and the surrounding furniture. Flesh and fabric are crudely and chaotically
+    tangled together. How could this ever be mistaken for harmony, for perfection?
+
+    The
+    thought barely crosses your mind before it is stolen away. A terrible bolt of
+    pain surges from the depths of your back. You are pulled upward, from the point
+    where your spine is stitched into the fabric. Yet you do not rise, for your arms,
+    your skin, your face are bound fast beneath the sewing machine.
+
+    You are
+    stretched taut by its greedy needle, stitched, stitch by gruesome stitch, further
+    toward your doom. Your veins and nerves strain to their breaking point, until
+    you can no longer endure it. You remain frozen, unmoving, paralyzed by shock
+    and the dread of what is to come.'
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -32722,19 +33152,27 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 9
-  nodeText: 'Al je zenuwdraden zijn verwoven en bloot aan de lucht. Elke prik strekt
-    je verder weg van je veilige lichaam. Elke pulsatie van je hart gonst een golf
-    van pijn door je aderen langs je gevoelige zenuwen naar de uiteindes van je stof,
-    langs een vingerbotje, daarverderop is het topje, en weer terug langs je oog.
-    Een heese ademteug snakt naar lucht en verlichting, maar de opblazing perst je
-    stof samen en de spieren spannen aan in shock. De aangespannen staat bied heel
-    even verlichting van de pijn, maar nadat alle zuurstof gestolen is naar het bloed
-    moet uitgeademnd worden.
+  nodeText: 'All of your nerves are strung out, woven bare into the open air. Every
+    stitch stretches you further away from the safety of your body. Every pulse of
+    your heart hammers a wave of agony through your veins, across your raw nerves,
+    to the farthest edges of your new form. Down past a finger bone, out to the tip,
+    and back again, passing along your frantic eye.
 
-    Langzaam en voorzichtig, lest the pain shoots ongecontroleerd
-    again. Prik! Voor je het weet spannen alle spieren aan, schreeuw je de lucht
-    naar buiten, hart in overtoeren van de shock en elke bloedgons langs je zenuwen
-    zenden meer pijn toe.'
+    A hoarse gasp claws for
+    air, for release, but your body swells and contracts, compressing the threads
+    of your flesh as your muscles seize in shock. For just a moment, the tension
+    grants a blessed relief. But once the last drop of oxygen is stolen into your
+    blood, the breath must be forced out.
+
+    Slowly. Carefully. Lest the pain erupts,
+    excruciating and uncontrollable.
+
+    Stitch.
+
+    Before you know it, every
+    muscle convulses, a scream tears free from your throat, your heart thrashes in
+    your chest, and with each pounding beat, your blood surges along your exposed
+    nerves, sending another flood of unbearable pain to every last thread of you.'
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -33391,6 +33829,7 @@ Transform:
   - {fileID: 982295560}
   - {fileID: 1201452357}
   - {fileID: 2122937605}
+  - {fileID: 256961422}
   m_Father: {fileID: 7999258448013532469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1589345434
@@ -36349,16 +36788,17 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: "Daar zit je dan. Half door de kamer hangend, half nog op de stoel. Onafgemaakt.
-    Je bloedvaten pulseren over delen van de stof heen, en worden uit je getrokken
-    bij elke steek. Het is een rare sensatie, dat er vanbinnenuit aan je getrokken
-    wordt. Je wordt haast als een soort handschoen binnenstebuiten getrokken door
-    de hand, door de gierige steken van de naaimachine. \nDan plots wordt er een
-    sluier van je af gehaald. Waar je eerst alles in een gedempte mist ervaarde,
-    ervaar je nu alles in hete, felle en verschrikkelijk stekende pijn.\nVoor je
-    het weet zijn al je spieren uit shock aangespannen, maar dat zorgt juist voor
-    nog een golf aan withete pijn. De bovenste helft van je spieren, verweven met
-    de stof, trekken aan de zenuwdraden, die bloot zijn komen te liggen aan de lucht."
+  nodeText: "There you are. A bit of you hanging across the room, the most of you
+    still clinging to the chair. Unfinished. Your veins pulse across patches of fabric,
+    tugged out of you with every stitch. It is a grotesque sensation\u2014to feel
+    yourself being pulled from the inside out. Like a glove, turned inside out by
+    greedy hands, you are inverted by the stitches of the machine.\nThen, suddenly,
+    a veil is torn away. Where once everything was dulled, shrouded in haze, you
+    now feel it all, a searing, blinding, unbearably sharp pain.\nBefore you can
+    comprehend, every muscle seizes in shock. But the convulsion only unleashes another
+    wave of white-hot agony. The upper half of your muscles, already woven into the
+    fabric, tug mercilessly at the nerve-threads, exposed and quivering in the open
+    air."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -36449,7 +36889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1761998161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36919,24 +37359,23 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: "Snel, ontspan je spieren! Te snel, de schokkerige poging om je armen
-    te ontspannen zendt nog een golf aan pijn uit, gierend je bovenarm op en rechtstreeks
-    je rug in. En verder. Vanuit je rug verspreid de pijn zich door de ruimte over
-    de wanordige lappen stof, waaraan je deels een bent geworden. Tot daar, tot in
-    de uiteindes van het onvoltooide gewrocht dat je bent, ben je aangespannen uit
-    pijn. Met je verkrampte en verminkte lappen en lichaam kan je het alleen maar
-    uitschreeuwen van de pijn, om het hopelijk te verlichten. \nMaar verlichting
-    brengt het niet. Je bloedvaten waren nog niet goed verwoven met de rest van de
-    stof. Ze zaten gammel vast. Deze tere vaatjes scheurden tijdens de inspanning,
-    en nu kleur je rood. De naaimachine keek heerlijk toe hoe je krampachtig verging
-    van de pijn. Nu, oh god verlicht dit moment, nu, naait het wrede ding zonder
-    inhibitie. Je huid wordt van je af gescheurd als hij begint te razen met de naald,
-    geen oog meer hebbend om het netjes te houden. Je realiseert wat er gebeurd,
-    maar het is al lang, lang te laat. Voor je het weet worden je zenuwen en spieren
-    en huid en ogen ondergeprikt in duizenden tergende naaldsteken, van voor naar
-    achter en onder naar boven wordt je uit elkaar getrokken en heen en weer gesleurd,
-    en lappen bloed, vlees en stof worden zonder enig verder doel afgedankt op de
-    vloer gesmeten."
+  nodeText: "Relax your muscles, quickly! Too quickly. The jerking attempt to loosen
+    your arms sends another screaming surge of pain, tearing up through your upper
+    arm, stabbing straight into your back. And farther still. From your back, the
+    pain spreads outward, racing along the tangled scraps of fabric that now make
+    up part of you. To the very ends of the unfinished husk you\u2019ve become, every
+    piece of you tightens in agony. With your twisted, mutilated remnants of flesh
+    and cloth, you can do nothing but scream in the desperate hope of relief.\nBut
+    relief never comes. Your veins were never fully bound into the fabric. They were
+    weak, fragile, half-sewn. Now, in your struggle, those tender vessels have torn.
+    Red blossoms across you. The machine watches, delighted, as your spasms drag
+    you deeper into torment.\nAnd now, oh god, let this moment end, now the cruel
+    device abandons all its restraint. The needle rages, shredding your skin without
+    care, without precision. You realize what is happening, but far, far too late.
+    Before you can comprehend, your nerves, your muscles, your skin, even your eyes
+    are pierced in thousands of torturous stitches. From front to back, from bottom
+    to top, you are ripped apart and thrashed around, while scraps of blood, flesh,
+    and fabric are discarded without purpose, thrown carelessly onto the floor."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -40693,24 +41132,23 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: "Snel, ontspan je spieren! Te snel, de schokkerige poging om je armen
-    te ontspannen zendt nog een golf aan pijn uit, gierend je bovenarm op en rechtstreeks
-    je rug in. En verder. Vanuit je rug verspreid de pijn zich door de ruimte over
-    de wanordige lappen stof, waaraan je deels een bent geworden. Tot daar, tot in
-    de uiteindes van het onvoltooide gewrocht dat je bent, ben je aangespannen uit
-    pijn. Met je verkrampte en verminkte lappen en lichaam kan je het alleen maar
-    uitschreeuwen van de pijn, om het hopelijk te verlichten. \nMaar verlichting
-    brengt het niet. Je bloedvaten waren nog niet goed verwoven met de rest van de
-    stof. Ze zaten gammel vast. Deze tere vaatjes scheurden tijdens de inspanning,
-    en nu kleur je rood. De naaimachine keek heerlijk toe hoe je krampachtig verging
-    van de pijn. Nu, oh god verlicht dit moment, nu, naait het wrede ding zonder
-    inhibitie. Je huid wordt van je af gescheurd als hij begint te razen met de naald,
-    geen oog meer hebbend om het netjes te houden. Je realiseert wat er gebeurd,
-    maar het is al lang, lang te laat. Voor je het weet worden je zenuwen en spieren
-    en huid en ogen ondergeprikt in duizenden tergende naaldsteken, van voor naar
-    achter en onder naar boven wordt je uit elkaar getrokken en heen en weer gesleurd,
-    en lappen bloed, vlees en stof worden zonder enig verder doel afgedankt op de
-    vloer gesmeten."
+  nodeText: "Relax your muscles, quickly! Too quickly. The jerking attempt to loosen
+    your arms sends another screaming surge of pain, tearing up through your upper
+    arm, stabbing straight into your back. And farther still. From your back, the
+    pain spreads outward, racing along the tangled scraps of fabric that now make
+    up part of you. To the very ends of the unfinished husk you\u2019ve become, every
+    piece of you tightens in agony. With your twisted, mutilated remnants of flesh
+    and cloth, you can do nothing but scream in the desperate hope of relief.\nBut
+    relief never comes. Your veins were never fully bound into the fabric. They were
+    weak, fragile, half-sewn. Now, in your struggle, those tender vessels have torn.
+    Red blossoms across you. The machine watches, delighted, as your spasms drag
+    you deeper into torment.\nAnd now, oh god, let this moment end, now the cruel
+    device abandons all its restraint. The needle rages, shredding your skin without
+    care, without precision. You realize what is happening, but far, far too late.
+    Before you can comprehend, your nerves, your muscles, your skin, even your eyes
+    are pierced in thousands of torturous stitches. From front to back, from bottom
+    to top, you are ripped apart and thrashed around, while scraps of blood, flesh,
+    and fabric are discarded without purpose, thrown carelessly onto the floor."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -41086,7 +41524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -41462,7 +41900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -42117,6 +42555,80 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &2005393725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005393726}
+  - component: {fileID: 2005393727}
+  m_Layer: 0
+  m_Name: F2 [H8.C1 4-8].4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2005393726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005393725}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 537188720}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2005393727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005393725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 8
+  nodeText: "Then, machine stops sewing.\n In a moment of agonizing anticipation,
+    you feel the unbearable weight of your contorted, stretched body and you simply
+    cannot take it anymore. You try to scream, but your mouth can\u2019t open under
+    the strain. Instead, only a strained, whistling groan escapes.\nThen the machine
+    explodes into motion, sewing with furious abandon. Whatever precision it once
+    possessed is gone. With each sudden thrust of the needle, with each convulsion
+    of your body, your veins, your skin, your nerves rip and burst and are torn apart.\nWaves
+    of pain hammer through the remnants of flesh and fabric you have become, as you
+    are wrenched helplessly from chair to wall to cabinet, consumed by the machine.
+    It shreds you into strips, stitches you back together, only to rip you apart
+    again.\nAnd only long after your nerves have died and your blood has clotted
+    does it finally discard you, tossing what remains of you carelessly onto the
+    floor."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &2014800203
 GameObject:
   m_ObjectHideFlags: 0
@@ -42209,7 +42721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -42930,14 +43442,16 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 6
-  nodeText: Al je zenuwdraden zijn verwoven en bloot aan de lucht. Elke prik strekt
-    je verder weg van je veilige lichaam. Elke pulsatie van je hart gonst een golf
-    van pijn door je aderen langs je gevoelige zenuwen naar de uiteindes van je stof,
-    langs een vingerbotje, daarverderop is het topje, en weer terug langs je oog.
-    Een heese ademteug snakt naar lucht en verlichting, maar de opblazing perst je
-    stof samen en de spieren spannen aan in shock. De aangespannen staat bied heel
-    even verlichting van de pijn, maar nadat alle zuurstof gestolen is naar het bloed
-    moet uitgeademnd worden.
+  nodeText: 'Your hands are stitched tight, woven into the fabric by the machine.
+    With your back pinned down, the machine pulls you apart. Strip by strip, your
+    skin is peeled away and threaded across the room. Your veins lie exposed, ripe
+    for the taking. The sewing machine claims them as thread, reshaping you into
+    nothing but a helpless scrap of cloth. It binds your nerves close against your
+    blood vessels and muscles. Just close enough that you can feel every single shred
+    of yourself, without the comfort of your body warmth.
+
+    And all of a sudden,
+    your senses are bombarded.'
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -43706,16 +44220,17 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: "Daar zit je dan. Half door de kamer hangend, half nog op de stoel. Onafgemaakt.
-    Je bloedvaten pulseren over delen van de stof heen, en worden uit je getrokken
-    bij elke steek. Het is een rare sensatie, dat er vanbinnenuit aan je getrokken
-    wordt. Je wordt haast als een soort handschoen binnenstebuiten getrokken door
-    de hand, door de gierige steken van de naaimachine. \nDan plots wordt er een
-    sluier van je af gehaald. Waar je eerst alles in een gedempte mist ervaarde,
-    ervaar je nu alles in hete, felle en verschrikkelijk stekende pijn.\nVoor je
-    het weet zijn al je spieren uit shock aangespannen, maar dat zorgt juist voor
-    nog een golf aan withete pijn. De bovenste helft van je spieren, verweven met
-    de stof, trekken aan de zenuwdraden, die bloot zijn komen te liggen aan de lucht."
+  nodeText: "There you are. A bit of you hanging across the room, the most of you
+    still clinging to the chair. Unfinished. Your veins pulse across patches of fabric,
+    tugged out of you with every stitch. It is a grotesque sensation\u2014to feel
+    yourself being pulled from the inside out. Like a glove, turned inside out by
+    greedy hands, you are inverted by the stitches of the machine.\nThen, suddenly,
+    a veil is torn away. Where once everything was dulled, shrouded in haze, you
+    now feel it all, a searing, blinding, unbearably sharp pain.\nBefore you can
+    comprehend, every muscle seizes in shock. But the convulsion only unleashes another
+    wave of white-hot agony. The upper half of your muscles, already woven into the
+    fabric, tug mercilessly at the nerve-threads, exposed and quivering in the open
+    air."
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -44172,7 +44687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -44300,7 +44815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 8
@@ -44816,19 +45331,16 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 6
-  nodeText: 'Al je zenuwdraden zijn verwoven en bloot aan de lucht. Elke prik strekt
-    je verder weg van je veilige lichaam. Elke pulsatie van je hart gonst een golf
-    van pijn door je aderen langs je gevoelige zenuwen naar de uiteindes van je stof,
-    langs een vingerbotje, daarverderop is het topje, en weer terug langs je oog.
-    Een heese ademteug snakt naar lucht en verlichting, maar de opblazing perst je
-    stof samen en de spieren spannen aan in shock. De aangespannen staat bied heel
-    even verlichting van de pijn, maar nadat alle zuurstof gestolen is naar het bloed
-    moet uitgeademnd worden.
+  nodeText: 'Your hands are stitched tight, woven into the fabric by the machine.
+    With your back pinned down, the machine pulls you apart. Strip by strip, your
+    skin is peeled away and threaded across the room. Your veins lie exposed, ripe
+    for the taking. The sewing machine claims them as thread, reshaping you into
+    nothing but a helpless scrap of cloth. It binds your nerves close against your
+    blood vessels and muscles. Just close enough that you can feel every single shred
+    of yourself, without the comfort of your body warmth.
 
-    Langzaam en voorzichtig, lest the pain shoots ongecontroleerd
-    again. Prik! Voor je het weet spannen alle spieren aan, schreeuw je de lucht
-    naar buiten, hart in overtoeren van de shock en elke bloedgons langs je zenuwen
-    zenden meer pijn toe.'
+    And all of a sudden,
+    your senses are bombarded.'
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -47507,6 +48019,7 @@ Transform:
   - {fileID: 621186642}
   - {fileID: 145123479}
   - {fileID: 2047323974}
+  - {fileID: 1390639980}
   m_Father: {fileID: 620439718399125255}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5115914654706206067
