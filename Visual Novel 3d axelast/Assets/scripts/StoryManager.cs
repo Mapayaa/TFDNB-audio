@@ -13,6 +13,8 @@ public class SewListEntry
     public StoryNode node;
     [Tooltip("Optionele ClickList voor deze stap in de hoofdlijn.")]
     public ClickList clickList;
+    [Tooltip("Indien true, wordt een click op deze node genegeerd en blijft de interactie bij deze node.")]
+    public bool disableClick;
 }
 
 [System.Serializable]
@@ -626,7 +628,34 @@ if (chapter6PlusSewLists != null && chapter6PlusSewLists.Count > 0)
                     Debug.Log("Sewing action interrupted by click.");
                 }
             }
-            Next("click");
+
+            // --- Disable Click logica voor SewList (chapter 6+) ---
+            bool blockClick = false;
+            if (currentChapter >= 6 && chapter6PlusSewLists != null)
+            {
+                int sewListIdx = currentChapter - 6;
+                if (sewListIdx >= 0 && sewListIdx < chapter6PlusSewLists.Count)
+                {
+                    var sewList = chapter6PlusSewLists[sewListIdx];
+                    if (currentSewNodeIndex >= 0 && currentSewNodeIndex < sewList.entries.Count)
+                    {
+                        var sewEntry = sewList.entries[currentSewNodeIndex];
+                        if (sewEntry != null && sewEntry.disableClick)
+                        {
+                            blockClick = true;
+                        }
+                    }
+                }
+            }
+            if (blockClick)
+            {
+                Debug.Log("Click genegeerd: disableClick actief voor deze SewListEntry.");
+                // (Optioneel: visuele feedback toevoegen)
+            }
+            else
+            {
+                Next("click");
+            }
         }
 
         // Start alsnog de tekstanimatie als de spatiebalk wordt losgelaten en er een pending node is
@@ -826,6 +855,25 @@ if (currentChapter >= 6 && chapter6PlusSewLists != null && chapter6PlusSewLists.
     void Next(string method)
     {
         if (inputDisabled) return;
+
+        // --- Extra disableClick check voor SewList (chapter 6+) ---
+        if (method == "click" && currentChapter >= 6 && chapter6PlusSewLists != null)
+        {
+            int sewListIdx = currentChapter - 6;
+            if (sewListIdx >= 0 && sewListIdx < chapter6PlusSewLists.Count)
+            {
+                var sewList = chapter6PlusSewLists[sewListIdx];
+                if (currentSewNodeIndex >= 0 && currentSewNodeIndex < sewList.entries.Count)
+                {
+                    var sewEntry = sewList.entries[currentSewNodeIndex];
+                    if (sewEntry != null && sewEntry.disableClick)
+                    {
+                        Debug.Log("Click genegeerd in Next(): disableClick actief voor deze SewListEntry.");
+                        return;
+                    }
+                }
+            }
+        }
 
         // Feedback UI tonen
         if (method == "sew" && sewingSuccessImage != null)

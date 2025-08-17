@@ -1787,11 +1787,13 @@ MonoBehaviour:
         entries: []
         forcedLists: []
         fateLists: []
+      disableClick: 0
     - node: {fileID: 0}
       clickList:
         entries: []
         forcedLists: []
         fateLists: []
+      disableClick: 0
   chapter6PlusPenaltyMappings:
   - description: 
     requiredTotalPenaltyClicks: 1
@@ -2125,8 +2127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: GHHAAAAUUGHH!!! SSTTOAAAAAHHHHHPH!!!
@@ -3913,8 +3915,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: GWUUUHAAAACKH!! WWHHYYYYYMEEEEHH?!!
@@ -4349,8 +4351,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: And listen a final time, how all of you will sing together in AGONY!
@@ -8075,7 +8077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRole: 1
   meetellenAlsClick: 1
-  disableClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 8
   nodeText: I'll sew for you!
@@ -8967,8 +8969,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: 'HGGNNNGCK!!!!
@@ -9345,8 +9347,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: 'Because I want you and your relatives to feel PAIN and LOSS like I did! '
@@ -9885,7 +9887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &444881550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10148,8 +10150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: hHHhuuuuhhhk!.. Hnnhaaahhhghhk...
@@ -11312,7 +11314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 9
@@ -11564,8 +11566,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: "But to be fair, I couldn\u2019t care less about that!"
@@ -12642,8 +12644,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: The threadbare nerves trembling with each pump of the heart.
@@ -12770,8 +12772,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: This accident must have been because you finally lost it. Too desperate
@@ -13609,8 +13611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: "And he won\u2019t even know it was me!! You sewed up yourself. All because
@@ -14123,8 +14125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: GAAAUUUGHHH!! WHYYYYYYYYYYY?!??
@@ -17423,7 +17425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 9
@@ -17982,8 +17984,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: Why you? Sheer bad luck!! And because you could be manipulated into mutilating
@@ -18689,8 +18691,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: HnnHGgkk??.. ghhhhaahhh??...
@@ -19178,8 +19180,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: hhhaahhhhh.. NhhHhaahhhhnggggg..!
@@ -19614,8 +19616,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: It just made you a perfect candidate for a tragic masterpiece of suffering!!
@@ -24552,7 +24554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 9
@@ -25006,7 +25008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 9
@@ -27201,8 +27203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: "I\u2019ll NEVER forget the one who KILLED my wife! "
@@ -28499,7 +28501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 9
@@ -28942,7 +28944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 9
@@ -29252,8 +29254,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: Feel. Feel your veins woven across the tapersty of muscle and skin.
@@ -30464,8 +30466,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: Now your husband will feel the same loss I felt!
@@ -31269,8 +31271,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: YESSSS!!!! FEEL IT!! IN ALL UNSEDATED GLORY!!!
@@ -31397,8 +31399,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: See. Watch how vulnerable your insides are strung across the room.
@@ -31667,8 +31669,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: 'HhhNGHHHHHhhh!!!
@@ -33148,8 +33150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 2
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: 'All of your nerves are strung out, woven bare into the open air. Every
@@ -33954,8 +33956,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: SUFFER!! Whrite in pain!! Just like I suffered!!
@@ -34273,8 +34275,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: "And out of desperation for \u201Cfinally, a good dress\u201D, you were
@@ -34853,8 +34855,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: Listen how your strained lungs hum along the rhythm.
@@ -36889,7 +36891,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1761998161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37103,8 +37105,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: "Your family knew you had creative troubles, didn\u2019t they?"
@@ -38326,8 +38328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: You, oh miserable you, were foolish enough to be blinded by your desperation!
@@ -39289,7 +39291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 9
@@ -40113,8 +40115,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: Hear. Listen as your beating heart plucks the strings,
@@ -40557,8 +40559,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: And feel again, how utterly defenseless you drape across the room!!
@@ -41206,7 +41208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
+  meetellenAlsClick: 0
   disableClick: 1
   disableSew: 0
   chapter: 9
@@ -42024,8 +42026,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 0
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: 'KHHAAAAARRGH!!!
@@ -42150,8 +42152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: WHAHAHHAHA!!! FINALLYYY!!!!
@@ -43813,8 +43815,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeRole: 1
-  meetellenAlsClick: 1
-  disableClick: 0
+  meetellenAlsClick: 0
+  disableClick: 1
   disableSew: 0
   chapter: 9
   nodeText: Simmer down, take it in one by one.
