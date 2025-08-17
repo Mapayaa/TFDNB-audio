@@ -1,0 +1,390 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9120934453994209273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/NaaiNovelAudio.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODAUDIO/Desktop/NaaiNovelAudio.bank
+  Name: NaaiNovelAudio
+  StudioPath: bank:/NaaiNovelAudio
+  lastModified: 638910667123482889
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8747535405475320055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Naaien Gross
+  m_EditorClassIdentifier: 
+  Path: event:/Naaien Gross
+  Guid:
+    Data1: -265590840
+    Data2: 1147778340
+    Data3: 1697352079
+    Data4: 912703364
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100919
+--- !u!114 &-7014152566280681144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Phase1
+  m_EditorClassIdentifier: 
+  Path: event:/Phase1
+  Guid:
+    Data1: -451988516
+    Data2: 1249953636
+    Data3: -1338275649
+    Data4: -1187113056
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 168000
+--- !u!114 &-3591059570213593668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PassOut
+  m_EditorClassIdentifier: 
+  Path: event:/PassOut
+  Guid:
+    Data1: -332057329
+    Data2: 1295181042
+    Data3: 186134444
+    Data4: 1830294524
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19912
+--- !u!114 &-2787682948712820242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODAUDIO/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638910736424701878
+  FileSizes:
+  - Name: 
+    Value: 1238
+  Exists: 1
+--- !u!114 &-1087241456868469697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Naaien Slow
+  m_EditorClassIdentifier: 
+  Path: event:/Naaien Slow
+  Guid:
+    Data1: 2084483396
+    Data2: 1098213107
+    Data3: 1222487195
+    Data4: 1250049366
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 142635
+--- !u!114 &-928016209477567003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Phase5
+  m_EditorClassIdentifier: 
+  Path: event:/Phase5
+  Guid:
+    Data1: -777356776
+    Data2: 1284588541
+    Data3: 134225083
+    Data4: -377880482
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 85867
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2787682948712820242}
+  - {fileID: 4946483876649047246}
+  - {fileID: -9120934453994209273}
+  EditorEvents:
+  - {fileID: -3591059570213593668}
+  - {fileID: -928016209477567003}
+  - {fileID: 6834229475790667057}
+  - {fileID: -1087241456868469697}
+  - {fileID: 5122688092170718627}
+  - {fileID: 376462068719530367}
+  - {fileID: -8747535405475320055}
+  - {fileID: 5135607090573089098}
+  - {fileID: -7014152566280681144}
+  - {fileID: 3842050874780173527}
+  - {fileID: 4248851525661227430}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 4946483876649047246}
+  StringsBanks:
+  - {fileID: -2787682948712820242}
+  cacheTime: 638910736424701878
+  cacheVersion: 131632
+--- !u!114 &376462068719530367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Phase4
+  m_EditorClassIdentifier: 
+  Path: event:/Phase4
+  Guid:
+    Data1: 374685366
+    Data2: 1203199502
+    Data3: -2127756133
+    Data4: -349831919
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 85867
+--- !u!114 &3842050874780173527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Phase2
+  m_EditorClassIdentifier: 
+  Path: event:/Phase2
+  Guid:
+    Data1: -630178321
+    Data2: 1341305279
+    Data3: -78216283
+    Data4: 1757176899
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 84073
+--- !u!114 &4248851525661227430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Naaien GrossnDistorted
+  m_EditorClassIdentifier: 
+  Path: event:/Naaien GrossnDistorted
+  Guid:
+    Data1: 1507584584
+    Data2: 1094330349
+    Data3: 1778154631
+    Data4: -1591975694
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100919
+--- !u!114 &4946483876649047246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODAUDIO/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638910736424686847
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5122688092170718627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Naaien Distorted
+  m_EditorClassIdentifier: 
+  Path: event:/Naaien Distorted
+  Guid:
+    Data1: 184225394
+    Data2: 1327111229
+    Data3: -1852246865
+    Data4: 2142164956
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100858
+--- !u!114 &5135607090573089098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Naaien
+  m_EditorClassIdentifier: 
+  Path: event:/Naaien
+  Guid:
+    Data1: 1317023437
+    Data2: 1239105826
+    Data3: 341852827
+    Data4: -440346080
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100858
+--- !u!114 &6834229475790667057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Phase3
+  m_EditorClassIdentifier: 
+  Path: event:/Phase3
+  Guid:
+    Data1: 923777841
+    Data2: 1109993849
+    Data3: 937212044
+    Data4: -1058546838
+  Banks:
+  - {fileID: 4946483876649047246}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 85867

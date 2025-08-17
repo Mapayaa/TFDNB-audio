@@ -1,5 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
+#if FMOD_PRESENT
+using FMODUnity;
+#endif
 
 namespace VN3D.Shared
 {
@@ -43,11 +46,16 @@ namespace VN3D.Shared
         public TMPro.TextMeshProUGUI verboseSewingText;
         public TMPro.TextMeshProUGUI verboseClickText;
         public TMPro.TextMeshProUGUI verboseErrorText;
-        public AudioClip sewingSoundClip;
-        public AudioSource sewingAudioSource;
         public AudioSource backgroundAudioSource;
         public AudioSource wordAudioSource;
         public AudioClip typingSoundClip;
+
+[Header("Sewing Sound Clip")]
+public AudioClip sewingSoundClip;
+public AudioSource sewingAudioSource;
+
+[Header("Sewing Object Activation")]
+public GameObject sewingActivationObject;
 
         [Header("SewNodes")]
         public List<GameObject> sewList = new List<GameObject>();
@@ -131,6 +139,7 @@ namespace VN3D.Shared
 
         void Awake()
         {
+            
             if (textBox != null)
                 baseFontSize = textBox.fontSize;
             else
@@ -156,6 +165,8 @@ namespace VN3D.Shared
                 wordAudioSource = gameObject.AddComponent<AudioSource>();
                 Debug.LogWarning("ChapterManager: wordAudioSource was missing and has been added automatically.");
             }
+            if (sewingActivationObject != null)
+    sewingActivationObject.SetActive(false);
         }
 
         void Start()
@@ -191,6 +202,8 @@ namespace VN3D.Shared
 
             if (!isSewing && Input.GetKeyDown(KeyCode.Space))
             {
+                if (sewingActivationObject != null)
+    sewingActivationObject.SetActive(true);
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
                 isSewing = true;
@@ -198,14 +211,24 @@ namespace VN3D.Shared
                 accumulatedSewingDistance = 0f;
                 if (sewingActiveImage != null)
                     sewingActiveImage.gameObject.SetActive(true);
-                if (sewingSoundActiveForThisHold && sewingAudioSource != null && sewingSoundClip != null && !sewingAudioSource.isPlaying)
-                {
-                    sewingAudioSource.clip = sewingSoundClip;
-                    sewingAudioSource.Play();
-                }
+               #if FMOD_PRESENT
+if (sewingSoundActiveForThisHold && useFMODForSewing && sewingSoundEvent.IsNull == false)
+{
+    FMODUnity.RuntimeManager.PlayOneShot(sewingSoundEvent, transform.position);
+}
+else
+#endif
+if (sewingSoundActiveForThisHold && sewingAudioSource != null && sewingSoundClip != null && !sewingAudioSource.isPlaying)
+{
+    sewingAudioSource.clip = sewingSoundClip;
+    sewingAudioSource.Play();
+}
+
             }
             else if (isSewing && Input.GetKeyUp(KeyCode.Space))
             {
+                if (sewingActivationObject != null)
+    sewingActivationObject.SetActive(false);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
                 if (sewingAudioSource != null && sewingAudioSource.isPlaying)

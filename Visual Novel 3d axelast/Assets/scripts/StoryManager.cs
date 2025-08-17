@@ -117,6 +117,11 @@ public class StoryManager : MonoBehaviour
     public Image sewingSuccessImage;
     public Image clickedImage;
 
+[Header("Phase Events")]
+public GameObject phase1EventObject; // Assign in Inspector
+public GameObject phase2EventObject; // Assign in Inspector
+public GameObject passOutAudio; // Assign in Inspector
+
     [Header("Optional: UI element for error/status messages")]
     public TextMeshProUGUI errorMessageBox;
 
@@ -771,6 +776,24 @@ if (currentChapter >= 6 && chapter6PlusSewLists != null && chapter6PlusSewLists.
         }
         // --- einde Verbose UI ---
 
+// --- Audio event logic for Phase 1 ---
+if (phase1EventObject != null)
+{
+    if (node.name == "Node_Start H1")
+    {
+        // Zet Phase 1 AAN
+        phase1EventObject?.SetActive(true);
+    }
+    else if (node.name == "H3.1")
+    {
+        // Zet Phase 1 UIT
+        phase1EventObject?.SetActive(false);
+
+        // Zet Phase 2 AAN
+        phase2EventObject?.SetActive(true);
+    }
+}
+
         // --- Role UI logica ---
         if (userRoleUI != null) userRoleUI.SetActive(false);
         if (machineRoleUI != null) machineRoleUI.SetActive(false);
@@ -1183,6 +1206,11 @@ if (chapter6PlusSewLists != null && sewListIdx >= 0 && sewListIdx < chapter6Plus
         if (passOutScreenImage != null)
         {
             passOutScreenImage.gameObject.SetActive(true);
+      if (passOutAudio != null)
+          passOutAudio.SetActive(true);
+
+          if (phase2EventObject != null)
+    phase2EventObject.SetActive(false);
             yield return new WaitForSeconds(chapter5PassOutScreenDuration);
             passOutScreenImage.gameObject.SetActive(false);
         }
