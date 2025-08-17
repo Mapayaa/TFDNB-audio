@@ -1637,7 +1637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1440205178}
   textBox: {fileID: 637877428}
-  currentNode: {fileID: 1046340097}
+  currentNode: {fileID: 0}
   sewingActiveImage: {fileID: 460812521}
   userRoleUI: {fileID: 1352220799}
   machineRoleUI: {fileID: 121640272}
@@ -9385,7 +9385,7 @@ MonoBehaviour:
   sewingActiveImage: {fileID: 460812521}
   userRoleUI: {fileID: 1352220799}
   machineRoleUI: {fileID: 121640272}
-  extraRoleUI: {fileID: 2024487243}
+  extraRoleUI: {fileID: 1230432229}
   sewingSuccessImage: {fileID: 471473315}
   clickedImage: {fileID: 1029311266}
   errorMessageBox: {fileID: 1989371829}
@@ -9568,7 +9568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &444881550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9589,7 +9589,7 @@ MonoBehaviour:
   sewingActiveImage: {fileID: 460812521}
   userRoleUI: {fileID: 1352220799}
   machineRoleUI: {fileID: 121640272}
-  extraRoleUI: {fileID: 2024487243}
+  extraRoleUI: {fileID: 1230432229}
   sewingSuccessImage: {fileID: 471473315}
   clickedImage: {fileID: 1029311266}
   errorMessageBox: {fileID: 1989371829}
@@ -10312,6 +10312,7 @@ RectTransform:
   - {fileID: 1352220800}
   - {fileID: 121640273}
   - {fileID: 2024487244}
+  - {fileID: 1230432230}
   - {fileID: 1989371828}
   - {fileID: 1658235661}
   - {fileID: 284032826}
@@ -16827,7 +16828,7 @@ MonoBehaviour:
   sewingActiveImage: {fileID: 460812521}
   userRoleUI: {fileID: 1352220799}
   machineRoleUI: {fileID: 121640272}
-  extraRoleUI: {fileID: 2024487243}
+  extraRoleUI: {fileID: 1230432229}
   sewingSuccessImage: {fileID: 471473315}
   clickedImage: {fileID: 1029311266}
   errorMessageBox: {fileID: 1989371829}
@@ -25531,6 +25532,96 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &1230432229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1230432230}
+  - component: {fileID: 1230432232}
+  - component: {fileID: 1230432231}
+  - component: {fileID: 1230432233}
+  m_Layer: 5
+  m_Name: Panel End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1230432230
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230432229}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6.118562, y: 3.1707175, z: 5.571826}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 462453280}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 199.333, y: 313.778}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1230432231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230432229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d6159d040a996494a857c6454897114b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1230432232
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230432229}
+  m_CullTransparentMesh: 1
+--- !u!114 &1230432233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230432229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24912da3f542043458da508e2798de81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 637877427}
+  newPosition: {x: 0, y: 50}
 --- !u!1 &1232103768
 GameObject:
   m_ObjectHideFlags: 0
@@ -36379,7 +36470,7 @@ MonoBehaviour:
   sewingActiveImage: {fileID: 460812521}
   userRoleUI: {fileID: 1352220799}
   machineRoleUI: {fileID: 121640272}
-  extraRoleUI: {fileID: 2024487243}
+  extraRoleUI: {fileID: 1230432229}
   sewingSuccessImage: {fileID: 471473315}
   clickedImage: {fileID: 1029311266}
   errorMessageBox: {fileID: 1989371829}
