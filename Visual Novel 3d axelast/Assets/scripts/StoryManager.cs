@@ -13,6 +13,8 @@ public class SewListEntry
     public StoryNode node;
     [Tooltip("Optionele ClickList voor deze stap in de hoofdlijn.")]
     public ClickList clickList;
+    [Tooltip("Indien true, wordt een click op deze node genegeerd en blijft de interactie bij deze node.")]
+    public bool disableClick;
 }
 
 [System.Serializable]
@@ -137,10 +139,8 @@ public class StoryManager : MonoBehaviour
     public float letterReveal_MinDelay = 0.02f;
     public float letterReveal_MaxDelay = 0.1f;
     public float letterReveal_HighlightDuration = 1.0f;
-    public float letterReveal_SizeMultiplier = 1.2f; // e.g., 1.2 for 120%
-    public Color letterReveal_HighlightColor = new Color(0.85f, 0.85f, 0.85f, 1f); // A light grey
-
-    private Coroutine displayTextCoroutine; // To manage the text display coroutine
+    public float letterReveal_SizeMultiplier = 1.2f;
+    public Color letterReveal_HighlightColor = new Color(0.85f, 0.85f, 0.85f, 1f);    private Coroutine displayTextCoroutine; // To manage the text display coroutine
     private System.Collections.Generic.List<RevealedChar> activeTextCharacters;
     private System.Text.StringBuilder textBuilder = new System.Text.StringBuilder();
     private float baseFontSize; // To store the original font size of the textBox
@@ -600,7 +600,6 @@ if (chapter6PlusSewLists != null && chapter6PlusSewLists.Count > 0)
                 // Show green sewing success image immediately
                 if (sewingSuccessImage != null)
                 {
-                    sewingSuccessImage.color = Color.green;
                     sewingSuccessImage.gameObject.SetActive(true);
                 }
 
@@ -626,7 +625,34 @@ if (chapter6PlusSewLists != null && chapter6PlusSewLists.Count > 0)
                     Debug.Log("Sewing action interrupted by click.");
                 }
             }
-            Next("click");
+
+            // --- Disable Click logica voor SewList (chapter 6+) ---
+            bool blockClick = false;
+            if (currentChapter >= 6 && chapter6PlusSewLists != null)
+            {
+                int sewListIdx = currentChapter - 6;
+                if (sewListIdx >= 0 && sewListIdx < chapter6PlusSewLists.Count)
+                {
+                    var sewList = chapter6PlusSewLists[sewListIdx];
+                    if (currentSewNodeIndex >= 0 && currentSewNodeIndex < sewList.entries.Count)
+                    {
+                        var sewEntry = sewList.entries[currentSewNodeIndex];
+                        if (sewEntry != null && sewEntry.disableClick)
+                        {
+                            blockClick = true;
+                        }
+                    }
+                }
+            }
+            if (blockClick)
+            {
+                Debug.Log("Click genegeerd: disableClick actief voor deze SewListEntry.");
+                // (Optioneel: visuele feedback toevoegen)
+            }
+            else
+            {
+                Next("click");
+            }
         }
 
         // Start alsnog de tekstanimatie als de spatiebalk wordt losgelaten en er een pending node is
@@ -826,6 +852,25 @@ if (currentChapter >= 6 && chapter6PlusSewLists != null && chapter6PlusSewLists.
     void Next(string method)
     {
         if (inputDisabled) return;
+
+        // --- Extra disableClick check voor SewList (chapter 6+) ---
+        if (method == "click" && currentChapter >= 6 && chapter6PlusSewLists != null)
+        {
+            int sewListIdx = currentChapter - 6;
+            if (sewListIdx >= 0 && sewListIdx < chapter6PlusSewLists.Count)
+            {
+                var sewList = chapter6PlusSewLists[sewListIdx];
+                if (currentSewNodeIndex >= 0 && currentSewNodeIndex < sewList.entries.Count)
+                {
+                    var sewEntry = sewList.entries[currentSewNodeIndex];
+                    if (sewEntry != null && sewEntry.disableClick)
+                    {
+                        Debug.Log("Click genegeerd in Next(): disableClick actief voor deze SewListEntry.");
+                        return;
+                    }
+                }
+            }
+        }
 
         // Feedback UI tonen
         if (method == "sew" && sewingSuccessImage != null)
@@ -1230,6 +1275,7 @@ if (chapter6PlusSewLists != null && sewListIdx >= 0 && sewListIdx < chapter6Plus
         }
 
         textBox.text = ""; // Clear the text box
+        textBox.ForceMeshUpdate(); // Force immediate update of the text mesh
 
         // Start typing sound while animating text
         if (wordAudioSource != null && typingSoundClip != null)
@@ -1239,11 +1285,37 @@ if (chapter6PlusSewLists != null && sewListIdx >= 0 && sewListIdx < chapter6Plus
             wordAudioSource.Play();
         }
 
-        float delay = 0.05f; // Base delay between characters
-        foreach (char c in node.nodeText)
+        // Use inspector-configurable delays with safety checks
+        float minDelay = Mathf.Max(0.001f, letterReveal_MinDelay);
+        float maxDelay = Mathf.Max(minDelay, letterReveal_MaxDelay);
+        float highlightDuration = Mathf.Max(0f, letterReveal_HighlightDuration);
+        float sizeMultiplier = Mathf.Max(0.1f, letterReveal_SizeMultiplier);
+        Color highlightColor = letterReveal_HighlightColor;
+
+        string fullText = node.nodeText;
+        int len = fullText.Length;
+        for (int i = 0; i < len; i++)
         {
-            textBox.text += c; // Add one character at a time
-            yield return new WaitForSeconds(delay);
+            char c = fullText[i];
+            // Compose the text up to the current character
+            string before = textBox.text;
+            // Highlight the current character
+            string highlightColorHex = ColorUtility.ToHtmlStringRGBA(highlightColor);
+            string highlightedChar = $"<color=#{highlightColorHex}><size={baseFontSize * sizeMultiplier}>{c}</size></color>";
+            textBox.text = before + highlightedChar;
+            textBox.ForceMeshUpdate();
+
+            yield return new WaitForSeconds(highlightDuration);
+
+            // Replace the highlighted char with normal char
+            textBox.text = before + c;
+            textBox.ForceMeshUpdate();
+
+            // Wait for the remainder of the per-letter delay
+            float totalDelay = UnityEngine.Random.Range(minDelay, maxDelay);
+            float remainder = Mathf.Max(0f, totalDelay - highlightDuration);
+            if (remainder > 0f)
+                yield return new WaitForSeconds(remainder);
         }
 
         // Stop typing sound after animation
@@ -1255,13 +1327,6 @@ if (chapter6PlusSewLists != null && sewListIdx >= 0 && sewListIdx < chapter6Plus
         // Wait for the entire text to be displayed
         yield return new WaitForSeconds(0.5f);
 
-        // Optionally, add a highlight or effect to the entire text
-        /*
-        textBox.fontSize = baseFontSize * 1.2f;
-        yield return new WaitForSeconds(0.2f);
-        textBox.fontSize = baseFontSize;
-        */
-
         displayTextCoroutine = null; // Clear the coroutine reference
     }
 
@@ -1272,12 +1337,9 @@ if (chapter6PlusSewLists != null && sewListIdx >= 0 && sewListIdx < chapter6Plus
 
         // Reset text properties
         textBox.fontSize = baseFontSize;
-        textBox.color = Color.white;
 
-        // --- Rich text handling ---
-        // Basic example: wrap in color tags
-        string coloredText = "<color=#FFFFFF>" + rawText + "</color>";
-        textBox.text = coloredText;
+        // Set initial text (no need to wrap in color tags as the color is set in the TextMeshProUGUI component)
+        textBox.text = rawText;
 
         // --- Advanced: parse for specific tags and apply effects ---
 

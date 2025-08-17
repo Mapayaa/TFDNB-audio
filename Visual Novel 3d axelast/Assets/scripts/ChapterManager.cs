@@ -567,10 +567,14 @@ namespace VN3D.Shared
                 if (inForcedListMode) return null; // Clicks blocked in forcedList mode
                 
                 // Click in sewList: check if it would activate clickList
-                if (!inClickList && sewList.Count > 0 && currentSewIndex < sewList.Count)
+            if (!inClickList && sewList.Count > 0 && currentSewIndex < sewList.Count)
+            {
+                var sewNode = sewList[currentSewIndex].GetComponent<StoryNode>();
+                if (sewNode != null)
                 {
-                    var sewNode = sewList[currentSewIndex].GetComponent<StoryNode>();
-                    if (sewNode != null && sewNode.meetellenAlsClick)
+                    if (sewNode.disableClick)
+                        return null;
+                    if (sewNode.meetellenAlsClick)
                     {
                         int nextClickListIndex = clickListProgression + 1;
                         int useIndex = Mathf.Clamp(nextClickListIndex, 0, clickLists.Count - 1);
@@ -580,6 +584,7 @@ namespace VN3D.Shared
                         }
                     }
                 }
+            }
                 
                 // Click in clicklist
                 if (inClickList && clickLists.Count > 0)
@@ -689,28 +694,35 @@ namespace VN3D.Shared
             {
                 if (inForcedListMode) return; // Clicks blokkeren in forcedList-modus
                 Debug.Log("DEBUG: Next('click') aangeroepen, inClickList=" + inClickList + ", currentSewIndex=" + currentSewIndex + ", sewList.Count=" + sewList.Count);
+                StartCoroutine(ShowClickedImage());
                 // Click in sewList: activeer clickList als 'meetellenAlsClick' true is
-                if (!inClickList && sewList.Count > 0 && currentSewIndex < sewList.Count)
-                {
-                    var sewNode = sewList[currentSewIndex].GetComponent<StoryNode>();
-                    Debug.Log("DEBUG: sewNode.meetellenAlsClick=" + (sewNode != null ? sewNode.meetellenAlsClick.ToString() : "null"));
-                    if (sewNode != null && sewNode.meetellenAlsClick)
-                    {
-                        Debug.Log("DEBUG: clickListProgression vóór = " + clickListProgression);
-                        // Gebruik clickListProgression + 1 omdat we nog niet verhoogd hebben
-                        int nextClickListIndex = clickListProgression + 1;
-                        currentClickListIndex = Mathf.Clamp(nextClickListIndex, 0, clickLists.Count - 1);
-                        inClickList = true;
-                        currentClickEntryIndex = 0;
-                        if (clickLists.Count > 0 && currentClickListIndex < clickLists.Count && clickLists[currentClickListIndex].transform.childCount > 0)
-                        {
-                            ShowNodeGO(clickLists[currentClickListIndex].transform.GetChild(0).gameObject);
-                            clickListProgression = currentClickListIndex; // Sync progression met de index
-                            Debug.Log("DEBUG: clickListProgression na click in sewList = " + clickListProgression);
-                            return;
-                        }
-                    }
-                }
+if (!inClickList && sewList.Count > 0 && currentSewIndex < sewList.Count)
+{
+    var sewNode = sewList[currentSewIndex].GetComponent<StoryNode>();
+    Debug.Log("DEBUG: sewNode.meetellenAlsClick=" + (sewNode != null ? sewNode.meetellenAlsClick.ToString() : "null"));
+    // FIX: Check ook op disableClick
+    if (sewNode != null && sewNode.meetellenAlsClick)
+    {
+        if (sewNode.disableClick)
+        {
+            Debug.Log("ClickList activatie geblokkeerd: disableClick is actief op deze sewNode.");
+            return;
+        }
+        Debug.Log("DEBUG: clickListProgression vóór = " + clickListProgression);
+        // Gebruik clickListProgression + 1 omdat we nog niet verhoogd hebben
+        int nextClickListIndex = clickListProgression + 1;
+        currentClickListIndex = Mathf.Clamp(nextClickListIndex, 0, clickLists.Count - 1);
+        inClickList = true;
+        currentClickEntryIndex = 0;
+        if (clickLists.Count > 0 && currentClickListIndex < clickLists.Count && clickLists[currentClickListIndex].transform.childCount > 0)
+        {
+            ShowNodeGO(clickLists[currentClickListIndex].transform.GetChild(0).gameObject);
+            clickListProgression = currentClickListIndex; // Sync progression met de index
+            Debug.Log("DEBUG: clickListProgression na click in sewList = " + clickListProgression);
+            return;
+        }
+    }
+}
 
                 // Click in clicklist: check disableClick
                 if (inClickList && clickLists.Count > 0)
@@ -1024,6 +1036,17 @@ namespace VN3D.Shared
             yield return new WaitForSeconds(1f);
             if (sewingSuccessImage != null)
                 sewingSuccessImage.gameObject.SetActive(false);
+        }
+
+        // Feedback bij click-acties
+        private System.Collections.IEnumerator ShowClickedImage()
+        {
+            if (clickedImage != null)
+            {
+                clickedImage.gameObject.SetActive(true);
+                yield return new WaitForSeconds(0.5f);
+                clickedImage.gameObject.SetActive(false);
+            }
         }
 
         private void InitializeTextForAnimation(string textToAnimate)
