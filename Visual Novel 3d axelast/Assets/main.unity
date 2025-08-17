@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 23282516}
   - component: {fileID: 23282517}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].6
+  m_Name: F6 [H6.C1 20-29].6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2665,18 +2665,21 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: "There you are. A bit of you hanging across the room, the most of you
+  nodeText: 'There you are. A bit of you hanging across the room, the most of you
     still clinging to the chair. Unfinished. Your veins pulse across patches of fabric,
-    tugged out of you with every stitch. It is a grotesque sensation\u2014to feel
-    yourself being pulled from the inside out. Like a glove, turned inside out by
-    greedy hands, you are inverted by the stitches of the machine.\nThen, suddenly,
-    a veil is torn away. Where once everything was dulled, shrouded in haze, you
-    now feel it all, a searing, blinding, unbearably sharp pain.\nBefore you can
-    comprehend, every muscle seizes in shock. But the convulsion only unleashes another
-    wave of white-hot agony. The upper half of your muscles, already woven into the
-    fabric, tug mercilessly at the nerve-threads, exposed and quivering in the open
-    air."
-  background: {fileID: 0}
+    tugged out of you with every stitch. It is a grotesque sensation, to feel yourself
+    being pulled from the inside out. Like a glove, turned inside out by greedy hands,
+    you are inverted by the stitches of the machine.
+
+    Then, suddenly, a veil
+    is torn away. Where once everything was dulled, shrouded in haze, you now feel
+    it all, a searing, blinding, unbearably sharp pain.
+
+    Before you can comprehend,
+    every muscle seizes in shock. But the convulsion only unleashes another wave
+    of white-hot agony. The upper half of your muscles, already woven into the fabric,
+    tug mercilessly at the nerve-threads, exposed and quivering in the open air.'
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -2807,7 +2810,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: "What a waste. They\u2019re unusable now.  "
-  background: {fileID: 21300000, guid: 0ed398cfc8a0a5d40bb8d58c8b0c8964, type: 3}
+  background: {fileID: 21300000, guid: 6d29b291edd25e645aa5b596dac25cb9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -3160,7 +3163,7 @@ MonoBehaviour:
     again.\nAnd only long after your nerves have died and your blood has clotted
     does it finally discard you, tossing what remains of you carelessly onto the
     floor."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 1f6e02ca032ff364dbacb6ef03a4ec92, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -3222,6 +3225,68 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: Wha- no. No! O GOD NO OF ALL THINGS, NOT THAT!-
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &148393653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148393654}
+  - component: {fileID: 148393655}
+  m_Layer: 0
+  m_Name: H6.C1.29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &148393654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148393653}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8794883206282481927}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148393655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148393653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: ...
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -4815,7 +4880,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: "Huh, this one is a bit crooked. Don\u2019t worry, we could make it work."
-  background: {fileID: 21300000, guid: 4f4e006175a80274c909c134e37545f7, type: 3}
+  background: {fileID: 21300000, guid: ca440a947d9bc594dab770909d9d94b7, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -5021,7 +5086,7 @@ MonoBehaviour:
     are pierced in thousands of torturous stitches. From front to back, from bottom
     to top, you are ripped apart and thrashed around, while scraps of blood, flesh,
     and fabric are discarded without purpose, thrown carelessly onto the floor."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -5353,7 +5418,7 @@ GameObject:
   - component: {fileID: 245897234}
   - component: {fileID: 245897235}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].2
+  m_Name: F6 [H6.C1 20-29].2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5392,6 +5457,68 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: I just have to use the right measures to see your artwork to completion.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &246506856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246506857}
+  - component: {fileID: 246506858}
+  m_Layer: 0
+  m_Name: E2 [H6.C1 33-33].4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &246506857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246506856}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1112014971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &246506858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246506856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Wha- no. No! O GOD NO OF ALL THINGS, NOT THAT!-
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -5541,7 +5668,7 @@ MonoBehaviour:
     muscle convulses, a scream tears free from your throat, your heart thrashes in
     your chest, and with each pounding beat, your blood surges along your exposed
     nerves, sending another flood of unbearable pain to every last thread of you.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: aa7e79edb99098649810b82a097fcc0a, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -7048,7 +7175,7 @@ MonoBehaviour:
     muscle convulses, a scream tears free from your throat, your heart thrashes in
     your chest, and with each pounding beat, your blood surges along your exposed
     nerves, sending another flood of unbearable pain to every last thread of you.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: aa7e79edb99098649810b82a097fcc0a, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -7172,7 +7299,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 8
   nodeText: There. This artwork willl ripen with this sturrdy foundation.
-  background: {fileID: 21300000, guid: 86695ed02f4b1d54f9b443782c26e0a6, type: 3}
+  background: {fileID: 21300000, guid: e0c8616c21644ef47b7482b527da1429, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -7589,7 +7716,7 @@ GameObject:
   - component: {fileID: 337019095}
   - component: {fileID: 337019096}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].0
+  m_Name: F5 [H6.C1 17-19].0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8170,7 +8297,7 @@ GameObject:
   - component: {fileID: 355842677}
   - component: {fileID: 355842678}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].6
+  m_Name: F5 [H6.C1 17-19].6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8283,7 +8410,7 @@ MonoBehaviour:
     again.\nAnd only long after your nerves have died and your blood has clotted
     does it finally discard you, tossing what remains of you carelessly onto the
     floor."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 1f6e02ca032ff364dbacb6ef03a4ec92, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -8306,7 +8433,7 @@ GameObject:
   - component: {fileID: 365602849}
   - component: {fileID: 365602850}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].3
+  m_Name: F6 [H6.C1 20-29].3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8585,6 +8712,68 @@ MonoBehaviour:
   disableSew: 0
   chapter: 8
   nodeText: "Doesn\u2019t it just make you want to continue?"
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &382533865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 382533866}
+  - component: {fileID: 382533867}
+  m_Layer: 0
+  m_Name: F8 [H6.C1 30-33].0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &382533866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382533865}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1169365844}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &382533867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382533865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Finally some sense!
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -8976,6 +9165,68 @@ MonoBehaviour:
   nodeText: 'HGGNNNGCK!!!!
 
     KHAAAAGGHHH!!!'
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &413888372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 413888373}
+  - component: {fileID: 413888374}
+  m_Layer: 0
+  m_Name: H6.C1.32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413888373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413888372}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8794883206282481927}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &413888374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413888372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Come now, I only want you to make your masterpiece!
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -9859,7 +10110,7 @@ MonoBehaviour:
     are pierced in thousands of torturous stitches. From front to back, from bottom
     to top, you are ripped apart and thrashed around, while scraps of blood, flesh,
     and fabric are discarded without purpose, thrown carelessly onto the floor."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -11319,7 +11570,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 9
   nodeText: ghuuhhhh.. ghaahhh.. hbrreathingg issss.. hhhhharrddd..
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -11470,7 +11721,7 @@ GameObject:
   - component: {fileID: 502701792}
   - component: {fileID: 502701793}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].10
+  m_Name: F6 [H6.C1 20-29].10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11572,6 +11823,77 @@ MonoBehaviour:
   chapter: 9
   nodeText: "But to be fair, I couldn\u2019t care less about that!"
   background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &509286112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 509286113}
+  - component: {fileID: 509286114}
+  m_Layer: 0
+  m_Name: E2 [H6.C1 33-33].5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &509286113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509286112}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1112014971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &509286114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509286112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 'Your hands are stitched tight, woven into the fabric by the machine.
+    With your back pinned down, the machine pulls you apart. Strip by strip, your
+    skin is peeled away and threaded across the room. Your veins lie exposed, ripe
+    for the taking. The sewing machine claims them as thread, reshaping you into
+    nothing but a helpless scrap of cloth. It binds your nerves close against your
+    blood vessels and muscles. Just close enough that you can feel every single shred
+    of yourself, without the comfort of your body warmth.
+
+    And all of a sudden,
+    your senses are bombarded.'
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -12083,7 +12405,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: HAAAAAHHHCK! KAAHHGGH!
-  background: {fileID: 21300000, guid: eaf25f640f4dc7848b123637944740ea, type: 3}
+  background: {fileID: 21300000, guid: 6d29b291edd25e645aa5b596dac25cb9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -12145,7 +12467,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: That one should do.. And this one too.
-  background: {fileID: 21300000, guid: 7c3108059e78fc542ae3922f5ff89de8, type: 3}
+  background: {fileID: 21300000, guid: 709c9b34b8aeb2845b06ae68a042f37b, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -13566,6 +13888,88 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &607255440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607255441}
+  - component: {fileID: 607255442}
+  m_Layer: 0
+  m_Name: H6.C2.10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &607255441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607255440}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2083509407}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &607255442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607255440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 1
+  disableSew: 1
+  chapter: 6
+  nodeText: 'All of your nerves are strung out, woven bare into the open air. Every
+    stitch stretches you further away from the safety of your body. Every pulse of
+    your heart hammers a wave of agony through your veins, across your raw nerves,
+    to the farthest edges of your new form. Down past a finger bone, out to the tip,
+    and back again, passing along your frantic eye.
+
+    A hoarse gasp claws for
+    air, for release, but your body swells and contracts, compressing the threads
+    of your flesh as your muscles seize in shock. For just a moment, the tension
+    grants a blessed relief. But once the last drop of oxygen is stolen into your
+    blood, the breath must be forced out.
+
+    Slowly. Carefully. Lest the pain erupts,
+    excruciating and uncontrollable.
+
+    Stitch.
+
+    Before you know it, every
+    muscle convulses, a scream tears free from your throat, your heart thrashes in
+    your chest, and with each pounding beat, your blood surges along your exposed
+    nerves, sending another flood of unbearable pain to every last thread of you.'
+  background: {fileID: 21300000, guid: aa7e79edb99098649810b82a097fcc0a, type: 3}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &610474136
 GameObject:
   m_ObjectHideFlags: 0
@@ -14153,7 +14557,7 @@ GameObject:
   - component: {fileID: 627392072}
   - component: {fileID: 627392073}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].5
+  m_Name: F5 [H6.C1 17-19].5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15044,7 +15448,7 @@ MonoBehaviour:
 
     And all of a sudden,
     your senses are bombarded.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -15136,7 +15540,7 @@ GameObject:
   - component: {fileID: 684339444}
   - component: {fileID: 684339445}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].7
+  m_Name: F6 [H6.C1 20-29].7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16231,7 +16635,7 @@ GameObject:
   - component: {fileID: 731086452}
   - component: {fileID: 731086453}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].9
+  m_Name: F5 [H6.C1 17-19].9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16796,7 +17200,7 @@ GameObject:
   - component: {fileID: 763500740}
   - component: {fileID: 763500741}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].9
+  m_Name: F6 [H6.C1 20-29].9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17125,7 +17529,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &789418742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17214,9 +17618,11 @@ MonoBehaviour:
   - {fileID: 1049557477}
   - {fileID: 1020223711}
   - {fileID: 1589345432}
+  - {fileID: 1169365843}
   endLists:
   - {fileID: 3115257961113976618}
   - {fileID: 765790752}
+  - {fileID: 1112014970}
   gameOverObject: {fileID: 0}
   letterReveal_MinDelay: 0.02
   letterReveal_MaxDelay: 0.07
@@ -17430,7 +17836,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 9
   nodeText: THEDRESSISMEEE!!! WE AREEEE ONEEEE!!!
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 1f6e02ca032ff364dbacb6ef03a4ec92, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -18568,6 +18974,68 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: Look at that nicely secured seam!
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &848019774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 848019775}
+  - component: {fileID: 848019776}
+  m_Layer: 0
+  m_Name: E2 [H6.C1 33-33].1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &848019775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848019774}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1112014971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &848019776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848019774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: I will make you feel every jab, every needle of agony i felt!
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -20237,6 +20705,68 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &932476962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 932476963}
+  - component: {fileID: 932476964}
+  m_Layer: 0
+  m_Name: E2 [H6.C1 33-33].0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &932476963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932476962}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1112014971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &932476964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932476962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 1
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "That\u2019s it. Just know, that you\u2019ve chosen this."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &938032253
 GameObject:
   m_ObjectHideFlags: 0
@@ -20518,7 +21048,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: HAAAAAHHHCK! KAAHHGGH!
-  background: {fileID: 21300000, guid: 0ed398cfc8a0a5d40bb8d58c8b0c8964, type: 3}
+  background: {fileID: 21300000, guid: 6d29b291edd25e645aa5b596dac25cb9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -21006,6 +21536,68 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: There is no escape for you anymore.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &986452791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 986452792}
+  - component: {fileID: 986452793}
+  m_Layer: 0
+  m_Name: H6.C1.33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &986452792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986452791}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8794883206282481927}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &986452793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986452791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: You stubborn fool! This is your LAST WARNING!
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -21640,7 +22232,7 @@ GameObject:
   - component: {fileID: 1008338877}
   - component: {fileID: 1008338878}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].5
+  m_Name: F6 [H6.C1 20-29].5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21830,7 +22422,7 @@ GameObject:
   - component: {fileID: 1020223712}
   - component: {fileID: 1020223713}
   m_Layer: 0
-  m_Name: 'F6 [H6.C0 20-28]'
+  m_Name: 'F6 [H6.C1 20-29]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21860,6 +22452,7 @@ Transform:
   - {fileID: 1548848320}
   - {fileID: 763500740}
   - {fileID: 502701792}
+  - {fileID: 1786724772}
   m_Father: {fileID: 7999258448013532469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1020223713
@@ -21874,9 +22467,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a807bd5714d498f9833649b23b30c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickListReference: {fileID: 6257147039326837783}
+  clickListReference: {fileID: 1893082355616705110}
   fromIndex: 20
-  toIndex: 28
+  toIndex: 29
 --- !u!1 &1029311264
 GameObject:
   m_ObjectHideFlags: 0
@@ -22068,7 +22661,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: "Ngh!.. huh, it doesn\u2019t even hurt. "
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 6d29b291edd25e645aa5b596dac25cb9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -22285,7 +22878,7 @@ GameObject:
   - component: {fileID: 1049557478}
   - component: {fileID: 1049557479}
   m_Layer: 0
-  m_Name: 'F5 [H6.C0 17-19]'
+  m_Name: 'F5 [H6.C1 17-19]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22329,7 +22922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a807bd5714d498f9833649b23b30c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickListReference: {fileID: 6257147039326837783}
+  clickListReference: {fileID: 1893082355616705110}
   fromIndex: 17
   toIndex: 19
 --- !u!1 &1055541625
@@ -22762,18 +23355,21 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 7
-  nodeText: "There you are. A bit of you hanging across the room, the most of you
+  nodeText: 'There you are. A bit of you hanging across the room, the most of you
     still clinging to the chair. Unfinished. Your veins pulse across patches of fabric,
-    tugged out of you with every stitch. It is a grotesque sensation\u2014to feel
-    yourself being pulled from the inside out. Like a glove, turned inside out by
-    greedy hands, you are inverted by the stitches of the machine.\nThen, suddenly,
-    a veil is torn away. Where once everything was dulled, shrouded in haze, you
-    now feel it all, a searing, blinding, unbearably sharp pain.\nBefore you can
-    comprehend, every muscle seizes in shock. But the convulsion only unleashes another
-    wave of white-hot agony. The upper half of your muscles, already woven into the
-    fabric, tug mercilessly at the nerve-threads, exposed and quivering in the open
-    air."
-  background: {fileID: 0}
+    tugged out of you with every stitch. It is a grotesque sensation, to feel yourself
+    being pulled from the inside out. Like a glove, turned inside out by greedy hands,
+    you are inverted by the stitches of the machine.
+
+    Then, suddenly, a veil
+    is torn away. Where once everything was dulled, shrouded in haze, you now feel
+    it all, a searing, blinding, unbearably sharp pain.
+
+    Before you can comprehend,
+    every muscle seizes in shock. But the convulsion only unleashes another wave
+    of white-hot agony. The upper half of your muscles, already woven into the fabric,
+    tug mercilessly at the nerve-threads, exposed and quivering in the open air.'
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -22844,6 +23440,68 @@ MonoBehaviour:
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 1929744744}
   nextOnClick: {fileID: 297873890}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1069223611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1069223612}
+  - component: {fileID: 1069223613}
+  m_Layer: 0
+  m_Name: F8 [H6.C1 30-33].2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1069223612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069223611}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1169365844}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1069223613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069223611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: Know that if you do, it will be the end of you.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
   object1:
     gameObject: {fileID: 0}
     activateOnStart: 0
@@ -23679,7 +24337,7 @@ MonoBehaviour:
     toward your doom. Your veins and nerves strain to their breaking point, until
     you can no longer endure it. You remain frozen, unmoving, paralyzed by shock
     and the dread of what is to come.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -24063,6 +24721,44 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &1112014970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1112014971}
+  m_Layer: 0
+  m_Name: 'E2 [H6.C1 33-33]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112014971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112014970}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 932476963}
+  - {fileID: 848019775}
+  - {fileID: 1956717917}
+  - {fileID: 1146499054}
+  - {fileID: 246506857}
+  - {fileID: 509286113}
+  - {fileID: 1441576319}
+  m_Father: {fileID: 620439718399125255}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1119283923
 GameObject:
   m_ObjectHideFlags: 0
@@ -24334,7 +25030,7 @@ GameObject:
   - component: {fileID: 1123206316}
   - component: {fileID: 1123206317}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].8
+  m_Name: F5 [H6.C1 17-19].8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24571,6 +25267,68 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     activateOnStart: 0
     deactivateOnEnd: 0
+--- !u!1 &1146499053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1146499054}
+  - component: {fileID: 1146499055}
+  m_Layer: 0
+  m_Name: E2 [H6.C1 33-33].3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1146499054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146499053}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1112014971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1146499055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146499053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: haa.. wait, what are you doing?
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &1150932708
 GameObject:
   m_ObjectHideFlags: 0
@@ -24766,6 +25524,56 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1169365843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1169365844}
+  - component: {fileID: 1169365845}
+  m_Layer: 0
+  m_Name: 'F8 [H6.C1 30-33]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1169365844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169365843}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 382533866}
+  - {fileID: 1929479062}
+  - {fileID: 1069223612}
+  m_Father: {fileID: 7999258448013532469}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1169365845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169365843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a807bd5714d498f9833649b23b30c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickListReference: {fileID: 1893082355616705110}
+  fromIndex: 30
+  toIndex: 33
 --- !u!1 &1169757604
 GameObject:
   m_ObjectHideFlags: 0
@@ -25207,7 +26015,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: 'There.. done.. '
-  background: {fileID: 21300000, guid: 1335a6a408011514ca5a2ada8c6bf811, type: 3}
+  background: {fileID: 21300000, guid: a7ed3bdfb803cc94dae3f66dd6b51f8e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -25784,7 +26592,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 8
   nodeText: Yesss! Drress is beautyy,beauty is wearerr!
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: a196a7edbbedf254a8b94665e3820f0b, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -26318,7 +27126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRole: 1
   meetellenAlsClick: 0
-  disableClick: 1
+  disableClick: 0
   disableSew: 0
   chapter: 6
   nodeText: JUST SEW ALREADY!
@@ -26956,7 +27764,7 @@ MonoBehaviour:
     toward your doom. Your veins and nerves strain to their breaking point, until
     you can no longer endure it. You remain frozen, unmoving, paralyzed by shock
     and the dread of what is to come.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -28378,7 +29186,7 @@ MonoBehaviour:
   nodeText: 'Wwearer is me,
 
     I am dressed in beauty!!'
-  background: {fileID: 21300000, guid: 5e1fefb78d63ade4a8d9c64160ea4ae8, type: 3}
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -30553,7 +31361,7 @@ MonoBehaviour:
     muscle convulses, a scream tears free from your throat, your heart thrashes in
     your chest, and with each pounding beat, your blood surges along your exposed
     nerves, sending another flood of unbearable pain to every last thread of you.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: aa7e79edb99098649810b82a097fcc0a, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -30955,7 +31763,7 @@ MonoBehaviour:
     toward your doom. Your veins and nerves strain to their breaking point, until
     you can no longer endure it. You remain frozen, unmoving, paralyzed by shock
     and the dread of what is to come.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -31017,7 +31825,69 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: Stitch, stitch, stitch!
-  background: {fileID: 21300000, guid: 8bdeb06256541814aba4287ca4c08a43, type: 3}
+  background: {fileID: 21300000, guid: 73bdd0db46fcf204ba2318c51826a782, type: 3}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1423177190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423177191}
+  - component: {fileID: 1423177192}
+  m_Layer: 0
+  m_Name: H6.C1.31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423177191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423177190}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8794883206282481927}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1423177192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423177190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "I\u2019m serious."
+  background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -31492,6 +32362,88 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440205176}
   m_CullTransparentMesh: 1
+--- !u!1 &1441576318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1441576319}
+  - component: {fileID: 1441576320}
+  m_Layer: 0
+  m_Name: E2 [H6.C1 33-33].6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1441576319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441576318}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1112014971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1441576320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441576318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: 'All of your nerves are strung out, woven bare into the open air. Every
+    stitch stretches you further away from the safety of your body. Every pulse of
+    your heart hammers a wave of agony through your veins, across your raw nerves,
+    to the farthest edges of your new form. Down past a finger bone, out to the tip,
+    and back again, passing along your frantic eye.
+
+    A hoarse gasp claws for
+    air, for release, but your body swells and contracts, compressing the threads
+    of your flesh as your muscles seize in shock. For just a moment, the tension
+    grants a blessed relief. But once the last drop of oxygen is stolen into your
+    blood, the breath must be forced out.
+
+    Slowly. Carefully. Lest the pain erupts,
+    excruciating and uncontrollable.
+
+    Stitch.
+
+    Before you know it, every
+    muscle convulses, a scream tears free from your throat, your heart thrashes in
+    your chest, and with each pounding beat, your blood surges along your exposed
+    nerves, sending another flood of unbearable pain to every last thread of you.'
+  background: {fileID: 21300000, guid: aa7e79edb99098649810b82a097fcc0a, type: 3}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &1446745328
 GameObject:
   m_ObjectHideFlags: 0
@@ -31573,7 +32525,7 @@ GameObject:
   - component: {fileID: 1446802269}
   - component: {fileID: 1446802270}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].1
+  m_Name: F5 [H6.C1 17-19].1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32610,7 +33562,7 @@ GameObject:
   - component: {fileID: 1520953674}
   - component: {fileID: 1520953675}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].2
+  m_Name: F5 [H6.C1 17-19].2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32839,7 +33791,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: Good! Enjoy bliss. And next time you defy, you die.
-  background: {fileID: 21300000, guid: 8bdeb06256541814aba4287ca4c08a43, type: 3}
+  background: {fileID: 21300000, guid: 73bdd0db46fcf204ba2318c51826a782, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -33175,7 +34127,7 @@ MonoBehaviour:
     muscle convulses, a scream tears free from your throat, your heart thrashes in
     your chest, and with each pounding beat, your blood surges along your exposed
     nerves, sending another flood of unbearable pain to every last thread of you.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 1f6e02ca032ff364dbacb6ef03a4ec92, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -33275,7 +34227,7 @@ GameObject:
   - component: {fileID: 1548848320}
   - component: {fileID: 1548848321}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].8
+  m_Name: F6 [H6.C1 20-29].8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34494,7 +35446,7 @@ GameObject:
   - component: {fileID: 1650706848}
   - component: {fileID: 1650706849}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].1
+  m_Name: F6 [H6.C1 20-29].1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34692,7 +35644,7 @@ GameObject:
   - component: {fileID: 1660488057}
   - component: {fileID: 1660488058}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].3
+  m_Name: F5 [H6.C1 17-19].3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36085,7 +37037,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: That one should do.. And this one too.
-  background: {fileID: 21300000, guid: 7c3108059e78fc542ae3922f5ff89de8, type: 3}
+  background: {fileID: 21300000, guid: 709c9b34b8aeb2845b06ae68a042f37b, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -36801,7 +37753,7 @@ MonoBehaviour:
     wave of white-hot agony. The upper half of your muscles, already woven into the
     fabric, tug mercilessly at the nerve-threads, exposed and quivering in the open
     air."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -36891,7 +37843,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1761998161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36906,7 +37858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chapterNumber: 8
   nextChapter: {fileID: 443644379}
-  triggerNextChapterNode: {fileID: 886526078}
+  triggerNextChapterNode: {fileID: 1271992125}
   backgroundImage: {fileID: 1440205178}
   textBox: {fileID: 637877428}
   sewingActiveImage: {fileID: 460812521}
@@ -37378,7 +38330,7 @@ MonoBehaviour:
     are pierced in thousands of torturous stitches. From front to back, from bottom
     to top, you are ripped apart and thrashed around, while scraps of blood, flesh,
     and fabric are discarded without purpose, thrown carelessly onto the floor."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -37585,6 +38537,68 @@ MonoBehaviour:
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 1278105213}
   nextOnClick: {fileID: 1169251172}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1786724771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786724772}
+  - component: {fileID: 1786724773}
+  m_Layer: 0
+  m_Name: F6 [H6.C1 20-29].11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786724772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786724771}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1020223712}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1786724773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786724771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: And remember, next time you defy, you die.
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
   object1:
     gameObject: {fileID: 0}
     activateOnStart: 0
@@ -38356,7 +39370,7 @@ GameObject:
   - component: {fileID: 1820213493}
   - component: {fileID: 1820213494}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].4
+  m_Name: F6 [H6.C1 20-29].4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38394,7 +39408,7 @@ MonoBehaviour:
   disableClick: 0
   disableSew: 0
   chapter: 6
-  nodeText: "Pfooey! Let\u2019s get you some more  sedation, shall we?"
+  nodeText: "Pfooey! Let\u2019s get you some more sedation, shall we?"
   background: {fileID: 0}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
@@ -38547,7 +39561,7 @@ GameObject:
   - component: {fileID: 1826613859}
   - component: {fileID: 1826613860}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].7
+  m_Name: F5 [H6.C1 17-19].7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40463,7 +41477,7 @@ GameObject:
   - component: {fileID: 1910927837}
   - component: {fileID: 1910927838}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].4
+  m_Name: F5 [H6.C1 17-19].4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40953,6 +41967,139 @@ MonoBehaviour:
   clickListReference: {fileID: 1743381586}
   fromIndex: 0
   toIndex: 3
+--- !u!1 &1925528512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1925528513}
+  - component: {fileID: 1925528514}
+  m_Layer: 0
+  m_Name: H6.C2.9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1925528513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925528512}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2083509407}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1925528514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925528512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 2
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 1
+  chapter: 6
+  nodeText: 'Your hands are stitched tight, woven into the fabric by the machine.
+    With your back pinned down, the machine pulls you apart. Strip by strip, your
+    skin is peeled away and threaded across the room. Your veins lie exposed, ripe
+    for the taking. The sewing machine claims them as thread, reshaping you into
+    nothing but a helpless scrap of cloth. It binds your nerves close against your
+    blood vessels and muscles. Just close enough that you can feel every single shred
+    of yourself, without the comfort of your body warmth.
+
+    And all of a sudden,
+    your senses are bombarded.'
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+--- !u!1 &1929479061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1929479062}
+  - component: {fileID: 1929479063}
+  m_Layer: 0
+  m_Name: F8 [H6.C1 30-33].1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1929479062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929479061}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1169365844}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1929479063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929479061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "Don\u2019t you DARE stop again."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &1929744742
 GameObject:
   m_ObjectHideFlags: 0
@@ -41151,7 +42298,7 @@ MonoBehaviour:
     are pierced in thousands of torturous stitches. From front to back, from bottom
     to top, you are ripped apart and thrashed around, while scraps of blood, flesh,
     and fabric are discarded without purpose, thrown carelessly onto the floor."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -41593,7 +42740,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: "Huh, this one is a bit crooked. Don\u2019t worry, we could make it work."
-  background: {fileID: 21300000, guid: 4f4e006175a80274c909c134e37545f7, type: 3}
+  background: {fileID: 21300000, guid: ca440a947d9bc594dab770909d9d94b7, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -41733,6 +42880,68 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000061035156, y: -0.000030517578}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1956717916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956717917}
+  - component: {fileID: 1956717918}
+  m_Layer: 0
+  m_Name: E2 [H6.C1 33-33].2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1956717917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956717916}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1112014971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1956717918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956717916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 0
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: AAAAahh!! haaa...  haa..
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &1957667702
 GameObject:
   m_ObjectHideFlags: 0
@@ -41845,7 +43054,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: MY HAND!!!! AAUUUCK! AAHH!
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 813d300ddef5e864583af78eedf0c35f, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -41907,7 +43116,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 8
   nodeText: ghuuhhhh.. ghaahhh.. hbrreathingg issss.. hhhhharrddd..
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 11cf3c6492362bb4c83cfbd3cc34b5d9, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -42281,7 +43490,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 7
   nodeText: What a weird sensation! It feels like..
-  background: {fileID: 21300000, guid: ad03d60f43af6b9429f8a5858dbd91bd, type: 3}
+  background: {fileID: 21300000, guid: 44bf1d68802055b42a4085b9e4cb9722, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -42429,6 +43638,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989371827}
   m_CullTransparentMesh: 1
+--- !u!1 &1995227849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1995227850}
+  - component: {fileID: 1995227851}
+  m_Layer: 0
+  m_Name: H6.C1.30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1995227850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995227849}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8794883206282481927}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995227851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995227849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ca90549f21c485ea572d3f1107874e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRole: 1
+  meetellenAlsClick: 0
+  disableClick: 0
+  disableSew: 0
+  chapter: 6
+  nodeText: "If you won\u2019t sew, I\u2019ll not spare you anymore."
+  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
+  nextOnSew: {fileID: 0}
+  nextOnClick: {fileID: 0}
+  object1:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
+  object2:
+    gameObject: {fileID: 0}
+    activateOnStart: 0
+    deactivateOnEnd: 0
 --- !u!1 &1997907379
 GameObject:
   m_ObjectHideFlags: 0
@@ -42506,7 +43777,7 @@ GameObject:
   - component: {fileID: 1998706244}
   - component: {fileID: 1998706245}
   m_Layer: 0
-  m_Name: F5 [H6.C0 17-19].10
+  m_Name: F5 [H6.C1 17-19].10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42619,7 +43890,7 @@ MonoBehaviour:
     again.\nAnd only long after your nerves have died and your blood has clotted
     does it finally discard you, tossing what remains of you carelessly onto the
     floor."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 1f6e02ca032ff364dbacb6ef03a4ec92, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -43454,7 +44725,7 @@ MonoBehaviour:
 
     And all of a sudden,
     your senses are bombarded.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -43637,7 +44908,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 7
   nodeText: 'Ahh.. '
-  background: {fileID: 21300000, guid: f71d8055d3a370644ba2807747817b02, type: 3}
+  background: {fileID: 21300000, guid: ca85ae5061b4132409188f520d961ba1, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -44233,7 +45504,7 @@ MonoBehaviour:
     wave of white-hot agony. The upper half of your muscles, already woven into the
     fabric, tug mercilessly at the nerve-threads, exposed and quivering in the open
     air."
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -44283,6 +45554,8 @@ Transform:
   - {fileID: 1510736943}
   - {fileID: 1607920881}
   - {fileID: 601684865}
+  - {fileID: 1925528513}
+  - {fileID: 607255441}
   m_Father: {fileID: 2702161721564107318}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085378704
@@ -44358,7 +45631,7 @@ GameObject:
   - component: {fileID: 2089049288}
   - component: {fileID: 2089049289}
   m_Layer: 0
-  m_Name: F6 [H6.C0 20-28].0
+  m_Name: F6 [H6.C1 20-29].0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44822,7 +46095,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 8
   nodeText: 'Ihear a hymnn.. '
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: aa7e79edb99098649810b82a097fcc0a, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -45343,7 +46616,7 @@ MonoBehaviour:
 
     And all of a sudden,
     your senses are bombarded.'
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 886c21a6e98bfe6448532a3c133cf45e, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -45993,6 +47266,7 @@ Transform:
   m_Children:
   - {fileID: 5052274882792862386}
   - {fileID: 765790753}
+  - {fileID: 1112014971}
   m_Father: {fileID: 789418743}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &628186474320098408
@@ -46125,7 +47399,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: AUGHHCK!! AAAAHHHHRAAHHHH WHAT IS-
-  background: {fileID: 21300000, guid: 8bdeb06256541814aba4287ca4c08a43, type: 3}
+  background: {fileID: 21300000, guid: 73bdd0db46fcf204ba2318c51826a782, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -46221,7 +47495,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: I will make a true art piece! One never seen before!
-  background: {fileID: 21300000, guid: 8bdeb06256541814aba4287ca4c08a43, type: 3}
+  background: {fileID: 21300000, guid: 73bdd0db46fcf204ba2318c51826a782, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -47508,7 +48782,7 @@ MonoBehaviour:
   disableSew: 0
   chapter: 6
   nodeText: Wha.. huh?
-  background: {fileID: 21300000, guid: 78548be4d7bd44d4ba711ee7abba6488, type: 3}
+  background: {fileID: 21300000, guid: daf52eac063546d4fae50821cea8258c, type: 3}
   backgroundSound: {fileID: 0}
   nextOnSew: {fileID: 0}
   nextOnClick: {fileID: 0}
@@ -49314,6 +50588,7 @@ Transform:
   - {fileID: 1049557478}
   - {fileID: 1020223712}
   - {fileID: 1589345433}
+  - {fileID: 1169365844}
   m_Father: {fileID: 789418743}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8000717740187954359
@@ -49578,6 +50853,11 @@ Transform:
   - {fileID: 1496265752}
   - {fileID: 2016969205}
   - {fileID: 1247909126}
+  - {fileID: 148393654}
+  - {fileID: 1995227850}
+  - {fileID: 1423177191}
+  - {fileID: 413888373}
+  - {fileID: 986452792}
   m_Father: {fileID: 2702161721564107318}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8944558335029615274
